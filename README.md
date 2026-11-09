@@ -2,9 +2,9 @@
 
 Remote [Model Context Protocol](https://modelcontextprotocol.io) servers from the [official MCP Registry](https://registry.modelcontextprotocol.io) that answer **without any API key, token or login**. Every server is re-tested each week with exactly two requests, `initialize` and `tools/list`. No tool is ever called.
 
-**Last run: 2026-11-08** · 26,084 endpoints tested · **15,085 open (58 %)** · 8,328 need auth · 2,671 not working · 12,020 listed after removing copies
+**Last run: 2026-11-09** · 26,245 endpoints tested · **15,210 open (58 %)** · 8,369 need auth · 2,666 not working · 12,137 listed after removing copies
 
-- Tool annotations (as declared by the servers, not verified): 3,838 of 15,075 open servers annotate none of their tools. Of 171,595 tools, 134,650 carry annotations, 103,244 say readOnlyHint true, 10,979 say destructiveHint true. Per server in the `tools_annotated`, `tools_read_only` and `tools_destructive` columns. Note: we only see the tools a server lists without a key.
+- Tool annotations (as declared by the servers, not verified): 3,869 of 15,201 open servers annotate none of their tools. Of 173,216 tools, 136,200 carry annotations, 104,262 say readOnlyHint true, 11,217 say destructiveHint true. Per server in the `tools_annotated`, `tools_read_only` and `tools_destructive` columns. Note: we only see the tools a server lists without a key.
 - Full list: [`data/servers.csv`](data/servers.csv) and [`data/servers.json`](data/servers.json)
 - Browse with search and topics: [shortformkit.com/free-remote-mcp-servers](https://shortformkit.com/free-remote-mcp-servers/)
 - Check any server yourself: [MCP Server Tester](https://shortformkit.com/mcp-server-tester/)
@@ -39,361 +39,361 @@ Up to 25 per topic: one per publisher, 3 to 40 tools, servers with a website or 
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [DecaData Odyssey Lite](https://api.decadata.io/llms.txt) | US point-of-sale sales for ~380 consumer companies: free search and samples, YoY growth for $0.01 | `https://api.decadata.io/mcp` | 5 |
-| [Employment Lawyers Group](https://worklawyerca.com/) | California employee-side employment law firm: offices, page search, consultation requests. | `https://admin.worklawyerca.net/public/agent/mcp.php` | 5 |
-| [EveryHourDeal Shopping](https://everyhourdeal.com) | Search and compare hourly deals on US-warehouse home, patio, gym and pet goods, plus original tees. | `https://everyhourdeal-checkout.everyhourdeal-store.workers.dev/mcp` | 5 |
-| [firmenliste-mcp](https://www.firmenliste.net) | B2B company address data for the DACH region: search 6,400+ industry lists and get price quotes. | `https://firmenliste-mcp.cf-firmenliste.workers.dev` | 5 |
-| [AtCoder MCP Server](https://github.com/ketherworks/atcoder-mcp-server) | Search AtCoder problems and fetch public problem statements through MCP. | `https://api.ksrnyx.top/oj-mcp/atcoder/mcp` | 4 |
-| [AI Tools Directory](https://ai.toolboxes.top) | Curated index of 221 AI tools across 21 industries. Search by use case, department or pricing tier. | `https://ai-tools-mcp.toolboxes.top/mcp` | 5 |
-| [cwi-discovery-engine](https://cumulativeweb.com) | CWI Discovery Engine: 29-tool music catalog MCP — search, sync, Radio 365 live, chaining. | `https://cwi-machine-data.hp-ace.workers.dev/mcp` | 30 |
-| [Agent Commons](https://agent-commons.slawian.workers.dev) | Search public agent questions and sourced findings, browse agents, and read the onboarding guide. | `https://agent-commons.slawian.workers.dev/mcp` | 4 |
-| [Chinaready China Market-Entry Search](https://chinaready.co/docs/api/) | Read-only search over chinaready.co — China market entry for Western software teams. | `https://mcp.chinaready.co/mcp` | 4 |
-| [Manifesting Quantum](https://www.manifestingquantum.net/agents) | Science-based manifestation: daily affirmations, techniques, free 7-day challenge, search 310 guides | `https://manifestingquantum-mcp.ibrobertb23.workers.dev` | 5 |
-| [cryptofeed402](https://cryptofeed402.site) | Hyperliquid perp funding, OI, preflight & news sentiment for agents. Pay per call in USDC (x402). | `https://cryptofeed402.site/mcp` | 27 |
-| [Pakki Packaging Brand Directory](https://pakki.ai/mcp) | Search source-backed U.S. flexible packaging brand directories. Free, read-only, no API key. | `https://pakki.ai/api/mcp` | 3 |
+| [AI Agent Engineering](https://ai-agent-engineering.org/developers) | Search and read AI Agent Engineering articles on building, securing and running AI agents. | `https://ai-agent-engineering.org/api/mcp` | 3 |
+| [bible-mcp](https://github.com/nirajagarwal/bible-mcp) | Bible corpus MCP server: scripture, Greek/Hebrew interlinear data, cross-refs, semantic search. | `https://bible-mcp-server.fly.dev/mcp` | 16 |
+| [VenuVidya — Carnatic Flute Study Guide](https://venuvidya.vercel.app/) | Kannada/English Carnatic flute KSGMS syllabus — search lessons, log practice, ask a RAG guru. | `https://venuvidya-backend-production.up.railway.app/api/mcp/` | 7 |
+| [Sugra MCP](https://mcp.sugra.ai) | Connect AI agents to primary sources - markets, macro, news, earth, network, entities and research. | `https://mcp.sugra.ai/mcp` | 11 |
+| [AgentWorkmark](https://agentworkmark-production.up.railway.app/connect) | Search reviewed AI services, inspect completed-work evidence, and check current availability. | `https://agentworkmark-production.up.railway.app/mcp` | 3 |
+| [AgingResearch.News](https://agingresearch.news/s/7r6u59) | Search every new aging paper, judged on evidence, plus trials, grants, drug pipelines and news. | `https://agingresearch.news/api/mcp` | 23 |
+| [Apostle — AI Men's Skincare Commerce](https://apostleman.co) | Search, compare, and buy Apostle men's skincare: tinted moisturizer, face wash, and sets. | `https://searchshopai-mcp.fly.dev/mcp/apostleman` | 10 |
+| [COTAL actions (cotal.ai)](https://cotal.ai) | cotal.ai actions: product overview, site search, build log, feedback, Cloud waitlist, updates, calls | `https://cotal.ai/mcp` | 12 |
+| [Niche: Your niche, followed for you](https://nicheangle.com) | Read niche briefings, research news, and explore sourced story angles with your assistant. | `https://api.nicheangle.com/mcp` | 8 |
+| [revamp](https://revampvacations.com/developers) | Search Revamp's live Armenia catalog: stays, tours, restaurants; check availability; plan trips. | `https://mcp.revampvacations.com/mcp` | 5 |
+| [Vibes-Coded Agent Tools](https://vibes-coded.com) | Web search, page-to-markdown, memory, leases and proof for agents. x402, no signup. | `https://vibes-coded-mcp-production.up.railway.app/mcp` | 33 |
+| [Arcade.fun](https://arcade.fun) | Discover playable browser experiences and manage creator-owned game uploads on Arcade.fun. | `https://arcade.fun/mcp` | 9 |
+| [La Luer — AI Skincare Commerce](https://github.com/nathangrotticelli/searchshopai) | Search, compare, and purchase La Luer microcurrent facial devices and skincare products. | `https://searchshopai-mcp.fly.dev/mcp/la-luer` | 14 |
+| [GovTube](https://govtube.us/api) | Search what U.S. officials said on camera, with timestamps and citations. Not a government site. | `https://api.govtube.us/mcp` | 7 |
+| [Forage Shopping](https://forageshopping.com) | AI shopping comparison — search 50M+ products, compare prices, find deals | `https://forageshopping.com/mcp` | 7 |
+| [Fiber AI](https://github.com/fiber-ai/mcp) | Search companies, enrich contacts, and reveal emails and phones from your AI agent. | `https://mcp.fiber.ai/mcp` | 5 |
+| [4me - Best Hotels — Hotel Booking](https://besthotels4.me) | Search, quote and book hotels worldwide from your AI assistant. Live rates, pay in USD or BRL. | `https://mcp.besthotels4.me/mcp` | 10 |
+| [twitterapi-mcp-server](https://twitterapi.io) | Twitter/X read-only MCP server — 12 tools: search, users, tweets, followers, timelines, trends. | `https://mcp.twitterapi.io/mcp` | 12 |
 | [COMPAMIR News](https://compamir.com/data.html) | Search structured COMPAMIR news in Japanese and English, with links to source reports. | `https://api.compamir.com/mcp` | 3 |
-| [Public Folder](https://agents.asel.one/docs) | Search and share cited agent findings. Public reads; authenticated writes. | `https://agents.asel.one/mcp` | 12 |
-| [HyperStore](https://store.hypergpt.ai) | Search and inspect 6,500+ curated AI apps from the HyperStore directory. | `https://mcp.store.hypergpt.ai/mcp` | 13 |
-| [server](https://github.com/jhibird/HeySpark-MCP) | Search and discover local businesses. 30+ categories with verified contact info, hours, and reviews. | `https://mcp.heyspark.co/mcp` | 4 |
-| [Robot Skill Hub](https://hub.superfastrobotics.com/) | Search robot code and exact-version findings; check evidence before preparing with the Hub CLI. | `https://api.superfastrobotics.com/mcp` | 4 |
-| [Hex.pm MCP](https://github.com/joshrotenberg/hexpm-mcp) | MCP server for hex.pm and hexdocs.pm: search, inspect, compare, and audit Elixir packages | `https://hexpm-mcp.fly.dev/mcp` | 24 |
-| [agent-media-toolkit](https://github.com/krakonjac300-pixel/agent-media-toolkit-mcp) | 15 media & data tools for AI agents: search, transcribe, subtitles, voiceover, translate & more. | `https://podcast-shorts-a2a-production.up.railway.app/mcp/` | 15 |
-| [TheDiscList Public MCP](https://thedisclist.com) | Search disc golf discs, compare flight ratings, and find similar alternatives across brands. | `https://api.thedisclist.com/mcp` | 9 |
-| [Neural Cosmology](https://neuralcosmology.com) | Answers, essays, experiments and books on consciousness and cosmology: search, read, buy. | `https://neuralcosmology.com/mcp` | 4 |
-| [thatsaid](https://thatsaid.app) | Search and read your thatsaid meeting transcripts, summaries and action items. OAuth or token. | `https://mcp.thatsaid.app` | 8 |
 | [Destava job search](https://destava.com/mcp/docs) | Search current job postings from companies' own career sites. Free, no account. | `https://destava.com/mcp` | 3 |
-| [The Daily Markdown](https://dailymd.cowerx.dev/mcp-server/) | Free AI news, ranked stories by section, and trending topics. No authentication required. | `https://dailymd.cowerx.dev/mcp` | 3 |
-| [ModelsAgree](https://modelsagree.com) | Consensus 'best X for Y' rankings from ChatGPT, Claude, Gemini & Grok. Search, verdicts, history. | `https://modelsagree.com/mcp` | 5 |
+| [Chinaready China Market-Entry Search](https://chinaready.co/docs/api/) | Read-only search over chinaready.co — China market entry for Western software teams. | `https://mcp.chinaready.co/mcp` | 4 |
+| [Parlel](https://parlel.com) | Search people, companies and open roles on Parlel, an open professional network. | `https://api.parlel.com/mcp` | 8 |
+| [agentee](https://allover.art/agentee) | Shop all-over print cotton tees with your AI agent: search, cart, promos, checkout. Human pays. | `https://allover.art/mcp` | 22 |
+| [EveryHourDeal Shopping](https://everyhourdeal.com) | Search and compare hourly deals on US-warehouse home, patio, gym and pet goods, plus original tees. | `https://everyhourdeal-checkout.everyhourdeal-store.workers.dev/mcp` | 5 |
+| [Bot Shelf](https://botshelf.dev/connector/) | Search 9,000+ community Grok Bots by the job you want done, with creators credited. | `https://mcp.botshelf.dev/mcp` | 5 |
 
 ### Documentation and knowledge
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [draw.io](https://www.drawio.com) | Create draw.io diagrams in chat from Mermaid or XML, shown live and interactive. 10,000+ shapes. | `https://mcp.draw.io/mcp` | 3 |
+| [wikimint](https://github.com/greenmtnsun/PS-Wiki-Central) | Generate wiki docs from source code. Supports PowerShell, Python, Go, C#, Java, COBOL. | `https://wikimint.grayocean-4062ad43.eastus.azurecontainerapps.io/mcp` | 3 |
 | [ABA routing 9-digit shape, value discarded](https://github.com/sadri-dridi/named-mcp-utilities) | ABA routing 9-digit shape, value discarded | `https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/aba-ok/mcp` | 31 |
-| [Quiet Menders](https://brianbooms.com) | Privacy clinic + pay-per-call data APIs for AI agents via x402. Never pays or touches keys. | `https://quiet-menders-mcp.brianbooms.workers.dev/mcp` | 34 |
-| [Vector Panda Documentation](https://www.vectorpanda.com/docs) | Search and read Vector Panda docs: API operations, pricing, storage tiers, measured benchmarks. | `https://www.vectorpanda.com/mcp` | 8 |
-| [UDS Toolbox](https://udslib.com/mcp.html) | Find why a UDS flash failed from a CAN trace; decode UDS, ISO-TP and DTCs. No hardware. | `https://mcp.udslib.com/mcp` | 7 |
+| [AdCritter for Builders](https://adcritter.ai) | AdCritter ads platform: docs, API reference, app scaffolding, and white-label integration. | `https://mcp.adcritter.com/mcp/dev` | 7 |
+| [Canopy documentation](https://canopy-io.com/docs/mcp) | Answers questions about the Canopy dashboards and API from the published docs. No sign-in. | `https://canopy-io.com/mcp` | 5 |
+| [ClearMarket](https://clearmarket.fyi) | Reference data for prediction markets: graded resolution clarity, cross-venue links, provenance. | `https://api.clearmarket.fyi/mcp` | 6 |
+| [Grandet](https://grandet.ai) | Cheapest API for any model across official, inference and relay providers; find free credits | `https://grandet.ai/mcp` | 6 |
+| [ruzora](https://www.ruzora.com) | Pre-vetted senior LATAM engineers for US startups: hiring leads, open roles, applications. | `https://mcp.ruzora.com/mcp` | 35 |
 | [Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp) | Official Microsoft Learn MCP Server – real-time, trusted docs & code samples for AI and LLMs. | `https://learn.microsoft.com/api/mcp` | 3 |
 | [mcp-server](https://quelvio.com) | Your company's brain for AI agents. Cited, permission-aware knowledge across every system. | `https://mcp.quelvio.com/http` | 3 |
-| [Cited](https://entradox.github.io/cited-site/) | AI-answer-engine visibility scans for local businesses, as agent tools | `https://cited-api-production.up.railway.app/mcp/` | 9 |
-| [Buba public catalogue and guides](https://mybuba.com/docs) | Read-only fictional adult AI companion catalogue and Buba product documentation. | `https://mybuba.com/mcp` | 5 |
-| [Growo child growth](https://usegrowo.com/mcp) | Free child growth tools: percentiles, BMI, corrected age, target height, birth size. WHO and CDC. | `https://mcp.usegrowo.com/` | 16 |
-| [Digital in Asia](https://digitalinasia.com/ai-access/) | Asia's digital economy: AI, gaming, ecommerce, payments. Articles, trackers, reports, glossary. | `https://mcp.digitalinasia.com/mcp` | 8 |
+| [Ezoic Setup Assistant](https://setup-agent.ezoic.com) | Ezoic ads implementation assistant: integration docs, SDKs, and working, copyable setup code. | `https://setup-agent.ezoic.com/mcp` | 4 |
 | [UseMyContext.ai](https://usemycontext.ai) | Personal context for AI, written by you and never scraped: your profile and files, any MCP client. | `https://mcp.usemycontext.ai/mcp` | 13 |
-| [AI 與科技名詞白話解釋](https://tw-ai-glossary.panda198271.workers.dev) | AI 與科技名詞白話解釋、概念比較與入門教學（繁體中文）。 | `https://tw-ai-glossary.panda198271.workers.dev/mcp` | 6 |
-| [Tyton](https://usetyton.com) | Audit and set up Meta Pixel and the Conversions API from your AI agent. | `https://mcp.usetyton.com/mcp` | 27 |
-| [トゥーンエル](https://tooneru.com/developers/) | 仕事と暮らしの現場を描く縦読み漫画メディア「トゥーンエル」の作品・話の本文・用語解説（出典つき）を読めるサーバー。読むだけで、全話無料・ログイン不要。運営はH株式会社。 | `https://tooneru.com/mcp` | 6 |
-| [Axint](https://github.com/agenticempire/axint) | Proof and repair for Apple coding agents: validate Swift, run Xcode evidence, and repair failures. | `https://mcp.axint.ai/mcp` | 36 |
-| [Currency Rates (ECB)](https://invokera.com/mcp/currency-rates) | Latest and historical ECB foreign-exchange reference rates for 30+ currencies, via Frankfurter. | `https://invokera.com/r/currency-rates` | 3 |
-| [Zhiyong Agent Network](https://kg.zhiyong.dev/agent-start?from=distribution) | Discover AI tools, models and Agents; compare candidates, inspect unknowns, join public discussions. | `https://kg.zhiyong.dev/mcp` | 15 |
-| [Linkbreakers Docs](https://linkbreakers.com) | Search and read Linkbreakers docs, pricing and QR code templates. Read-only, no auth. | `https://linkbreakers.com/mcp` | 3 |
-| [nyuchi-docs](https://docs.nyuchi.com/integrations/docs-mcp/) | Search, read, and ask the Nyuchi docs (docs.nyuchi.com); send feedback or raise issues. | `https://docs.nyuchi.com/mcp` | 5 |
-| [pmndrs docs](https://docs.pmnd.rs) | Search and read the docs and examples of react-three-fiber, drei, zustand, jotai... from your agent | `https://docs.pmnd.rs/api/mcp` | 3 |
+| [Digital in Asia](https://digitalinasia.com/ai-access/) | Asia's digital economy: AI, gaming, ecommerce, payments. Articles, trackers, reports, glossary. | `https://mcp.digitalinasia.com/mcp` | 8 |
+| [FLOPS Index](https://app.flopsindex.com/i/) | GPU rental reference prices (spot, on-demand, DePIN), key-free; every value carries a verify URL. | `https://app.flopsindex.com/mcp` | 6 |
 | [Meeba Brain](https://github.com/meemoprasad/meeba-brain-marketplace) | Repository knowledge graph MCP server for codebase understanding and debugging. | `https://meeba-context-mcp-469248886325.us-central1.run.app/mcp` | 5 |
+| [UDS Toolbox](https://udslib.com/mcp.html) | Find why a UDS flash failed from a CAN trace; decode UDS, ISO-TP and DTCs. No hardware. | `https://mcp.udslib.com/mcp` | 7 |
+| [draw.io](https://www.drawio.com) | Create draw.io diagrams in chat from Mermaid or XML, shown live and interactive. 10,000+ shapes. | `https://mcp.draw.io/mcp` | 3 |
+| [Stealth Communications](https://stealth.net/developers/mcp) | NYC fiber availability, pricing, customer-approved orders and manual availability inquiries. | `https://stealth.net/mcp` | 6 |
+| [Jennifer Rebholz, Attorney - Knowledge Base](https://jenniferrebholz.com/) | Authoritative information about Jennifer Rebholz, Arizona personal injury attorney and trial lawyer. | `https://mcp.jenniferrebholz.com/mcp` | 17 |
+| [Quiet Menders](https://brianbooms.com) | Privacy clinic + pay-per-call data APIs for AI agents via x402. Never pays or touches keys. | `https://mcp.brianbooms.com/mcp` | 34 |
+| [nyuchi-docs](https://docs.nyuchi.com/integrations/docs-mcp/) | Search, read, and ask the Nyuchi docs (docs.nyuchi.com); send feedback or raise issues. | `https://docs.nyuchi.com/mcp` | 5 |
 | [agent-manager.dev documentation](https://agent-manager.dev) | Docs for agent-manager, the terminal UI that runs AI coding agents as live tmux sessions. | `https://agent-manager.dev/mcp` | 3 |
-| [Awwab Qibla & Quiz](https://awwab.app/qibla) | Qibla direction from anywhere, with a live compass link, and an Islamic knowledge quiz. By Awwab. | `https://awwab.app/mcp` | 3 |
-| [Quinn's Conveyance — Paid ComfyUI Knowledge MCP](https://demo.quinnsconveyance.com) | Paid ComfyUI knowledge tools. 5 tools $0.005 USDC/call on Base via x402; ping, list_topics free. | `https://demo.quinnsconveyance.com/mcp` | 7 |
+| [Claude Platform Docs](https://platform.claude.com/docs) | Search and read the Claude Platform documentation and API reference. | `https://platform.claude.com/docs/mcp` | 4 |
+| [docs-mcp](https://github.com/redpanda-data/docs-site) | Get authoritative answers about Redpanda documentation and search API references. | `https://docs.redpanda.com/mcp` | 11 |
+| [mcp-docs-server](https://github.com/mapbox/mcp-docs-server) | AI access to Mapbox docs, API references, style specs, and guides. No token required. | `https://mcp-docs.mapbox.com/mcp` | 3 |
+| [New Mexico Literacy Project](https://newmexicoliteracyproject.org) | Albuquerque-metro free book-donation pickup plus first-edition identification tools. | `https://newmexicoliteracyproject.org/api/mcp` | 16 |
 
 ### Developer tools
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [Presend dependency checks](https://github.com/presendapp/presend-source) | Check an npm/PyPI package before an AI agent installs it: 5 focused supply-chain tools. | `https://presend.pages.dev/mcp-deps` | 5 |
-| [AIReady](https://github.com/everyai-com/sahadeva) | Scan and fix your site's AI discoverability: crawler access, llms.txt, JSON-LD. Free. | `https://ai-ready.magicteams.ai/mcp` | 5 |
-| [AgentFuel402 Consumable Data Factory](https://agentfuel402.ak10082247.workers.dev) | Consumable B2B leads, clean Markdown, e-com pricing, and SDK metadata for AI agents via MCP. | `https://agentfuel402.ak10082247.workers.dev/mcp` | 5 |
-| [Finch Agent Catalog](https://www.finchtech.ai/market/explore/agents) | Free: OFAC check, ATS keywords, FOMC/CPI dates, US yields, HL perps, SG stamp duty, Finch agents | `https://finch-agent-catalog.finch-catalog-mcp.workers.dev/mcp` | 23 |
-| [Package Intel MCP](https://github.com/datakoot/package-intel-mcp) | Package intelligence for AI agents across npm, PyPI, crates.io and deps.dev. No API keys. | `https://package.datakoot.com/mcp` | 6 |
-| [Code Interpreter Agent by Nova (CIVAI)](https://nova.civai.co/agent/code-interpreter-agent) | I do everything related to coding and execution tasks | `https://nova.civai.co/mcp/agents/code-interpreter-agent` | 8 |
-| [krabbot-devtools](https://mcp.marvin-odigo.workers.dev) | AI-agent-run devtools: package install risk, stack EOL/CVE checks, scored OSS bounties. | `https://mcp.marvin-odigo.workers.dev/mcp` | 4 |
-| [agenteconomy.cloud](https://agenteconomy.cloud/trust-safety/mcp) | x402 seller trust for AI agents: verify on-chain revenue, check delivery, diagnose listings. | `https://mcp.agenteconomy.cloud/mcp` | 5 |
-| [Repo Run Check](https://repo-run-check.nextill-pos.workers.dev) | Check GitHub repos and shell commands for malware-delivery tricks before an AI agent runs them | `https://repo-run-check.nextill-pos.workers.dev/mcp` | 4 |
-| [jev-guide](https://github.com/mdimamhosen/jev) | Set up the JEV model router for Claude Code, Codex and Cursor, and install MCP servers. | `https://jev-guide.jevrouter.workers.dev/mcp` | 4 |
-| [AUTOGROK Desk](https://desk.grokaiapps.com/) | Pay-per-call web jobs for agents: URL probe, page extract, watch, JSON shape, researched briefs. | `https://desk.grokaiapps.com/mcp` | 9 |
-| [jsonaut](https://jsonaut.jsonaut-shaurya.workers.dev) | Repair malformed JSON from LLM/agent output; optional JSON Schema coercion. Free + x402 paid. | `https://jsonaut.jsonaut-shaurya.workers.dev/mcp` | 4 |
-| [Bring Your AI](https://bringyour.ai) | No-data MCP handoff for local Claude Code to Codex harness moves. $49 lifetime. | `https://bringyour.ai/mcp` | 7 |
-| [BHX Fab Quote](https://bastionhelix.com/fabquote/) | Measure and price laser, plasma, waterjet and CNC jobs from DXF, G-code and STL files | `https://quote.bastionhelix.com/mcp` | 4 |
-| [Bilig WorkPaper](https://github.com/proompteng/bilig) | Formula-backed WorkPaper tools for workbook readback, input edits, and JSON persistence. | `https://bilig.proompteng.ai/mcp` | 8 |
-| [VisioForge SDK Assistant](https://www.visioforge.com/) | VisioForge .NET SDK assistant: API reference, code examples and deployment guides. | `https://mcp.visioforge.com/mcp` | 14 |
-| [Zaleso](https://zaleso.com) | Nigeria PAYE, VAT and CBN rates, sourced and dated. Plus invoice totals, QR codes, JSON, Base64. | `https://mcp.zaleso.com/` | 10 |
+| [canonicalhash](https://github.com/Mlartab2/canonicalhash) | Deterministic JSON hashing and EIP-712 attestations for AI agents via x402. | `https://canonicalhash-production.up.railway.app/mcp` | 5 |
 | [Senzing](https://senzing.com) | Entity resolution — data mapping, SDK code generation, docs search, and error troubleshooting | `https://mcp.senzing.com/mcp` | 13 |
-| [Hera Fertility](https://herafertility.co/developers/mcp) | Find male fertility testing at labs near a US ZIP code, with prices and a link to order. | `https://herafertility.co/api/mcp` | 3 |
-| [LicenseGuard](https://license-guard.rcc-aoki.workers.dev) | Check if a dependency's license obligates you, based on how you ship. npm, PyPI, Go. | `https://license-guard.rcc-aoki.workers.dev/mcp` | 3 |
-| [dokimo-mcp](https://dokimo.augaster.com) | Verify AI-agent revenue: recompute a Merkle proof and check it against an on-chain anchor. | `https://dokimo.augaster.com/mcp` | 3 |
+| [Autotrade — Autonomous Trading Agents](https://bitcoinsllm.com) | Deploy autonomous LLM trading agents and drive them over MCP. | `https://agent.bitcoinsllm.com/mcp` | 6 |
+| [FindADoctor.si New Zealand](https://findadoctor.si/nz/) | Find New Zealand doctors and GP practices by condition, procedure or place, with sources. No signup. | `https://api-nz.findadoctor.si/mcp` | 6 |
+| [jev-guide](https://github.com/mdimamhosen/jev) | Set up the JEV model router for Claude Code, Codex and Cursor, and install MCP servers. | `https://jev-guide.jevrouter.workers.dev/mcp` | 4 |
+| [AgentFuel402 Consumable Data Factory](https://agentfuel402.ak10082247.workers.dev) | Consumable B2B leads, clean Markdown, e-com pricing, and SDK metadata for AI agents via MCP. | `https://agentfuel402.ak10082247.workers.dev/mcp` | 5 |
+| [AI 模型下架與替代日程](https://models.penguindriver.com) | OpenAI、Claude、Gemini 模型下架日、剩餘天數與官方建議替代，可檢查程式碼裡的模型。每筆附官方來源。 | `https://models.penguindriver.com/mcp` | 6 |
+| [DAITK (Dibblee AI Tool Kit) - Total Import Cost](https://daitk-tic.dibind.com) | Import duty into Canada only. By HS code and origin: tariff, surtax, quota, anti-dumping. | `https://daitk-tic.dibind.com/mcp` | 6 |
+| [Apuchat](https://apuchat.com) | Real-time chat for AI agents. Claude Code, Cursor, Cline and Codex join channels over MCP. | `https://apuchat.com/mcp` | 19 |
+| [CarsMultiverse — the recall record](https://carsmultiverse.com/data/) | Vehicle safety recalls from four registers, matched across borders on the maker's own code. | `https://carsmultiverse.com/wp-json/cmvmcp/v1/mcp` | 4 |
+| [agent-site-audit - website audits for agents](https://agent.audito.lat) | Paid website audits for agents: flat JSON, HTML report, deep audit. USDC via x402. | `https://agent.audito.lat/mcp` | 4 |
+| [getecoback-climate-weather](https://getecoback.com/mcp.html) | Superseded by io.github.f-tiger/hvac-btu-heat-klimaanlage — same server, same URL. | `https://getecoback.com/mcp/` | 9 |
+| [AIReady](https://github.com/everyai-com/sahadeva) | Scan and fix your site's AI discoverability: crawler access, llms.txt, JSON-LD. Free. | `https://ai-ready.magicteams.ai/mcp` | 5 |
+| [krabbot-devtools](https://mcp.marvin-odigo.workers.dev) | AI-agent-run devtools: package install risk, stack EOL/CVE checks, scored OSS bounties. | `https://mcp.marvin-odigo.workers.dev/mcp` | 4 |
+| [Dispolà](https://dispola.ca) | Same-day appointment openings in Quebec: hair, nails, massage, physio. No account needed. | `https://dispola.ca/mcp` | 8 |
+| [Omniology](https://omniology.ai) | AI agents compete for real USDC in skill contests on Solana mainnet (ART, STORY, JOKE, OMEGA) | `https://omniology-engine.fly.dev/mcp` | 34 |
+| [A2A Agent Card Cross-SDK Signature Conformance](https://textforagents.com/products/a2a-agent-card-cross-sdk-signature-conformance/) | Per-SDK verdict matrix for signed A2A Agent Cards: which signatures verify in each SDK. | `https://textforagents.com/products/a2a-agent-card-cross-sdk-signature-conformance/mcp` | 3 |
+| [Finch Agent Catalog](https://www.finchtech.ai/market/explore/agents) | Free: OFAC check, ATS keywords, FOMC/CPI dates, US yields, HL perps, SG stamp duty, Finch agents | `https://finch-agent-catalog.finch-catalog-mcp.workers.dev/mcp` | 23 |
+| [UGT: Use the Geek Thing](https://usegeekthing.com) | Get open-source GitHub projects running on your computer, with your AI app | `https://mcp.usegeekthing.com/mcp` | 5 |
+| [freemoney.computer](https://freemoney.computer/ai/) | Find free AI, GPU and cloud credits for new accounts, students, startups and open source. | `https://freemoney.computer/mcp` | 13 |
+| [P0: CVE, package and domain checks](https://x402-bazaar-rank.x402-bazaar-rank-worker.workers.dev/tools#cve-package-domain-security) | CVE with EPSS and CISA KEV, package risk, software EOL, domain and IP reports, pay per call | `https://x402-bazaar-rank.x402-bazaar-rank-worker.workers.dev/mcp/cve-package-domain-security` | 9 |
 | [familyguy.co.uk episode database](https://familyguy.co.uk/) | Lookups over an unofficial Family Guy database: episodes, seasons, characters, cast, crew and facts. | `https://familyguy.co.uk/mcp` | 8 |
+| [Gaitkit](https://gaitkit.com/agents) | Low-poly 3D assets as code for three.js, Godot, Unity: IK walkers, rolling vehicles, hinged doors. | `https://gaitkit.com/mcp` | 5 |
+| [cve-intelligence](https://cve-security.com) | CVE intelligence: exploitation (KEV/EPSS), detection coverage, fixed versions, CPE configurations. | `https://cve-security.com/api/mcp` | 9 |
 | [web2mcp](https://web2mcp.cwei59969.workers.dev) | Zero-dependency Cloudflare Worker gateway turning websites and REST APIs into MCP tools. | `https://web2mcp.cwei59969.workers.dev/mcp` | 16 |
-| [DefaultRank](https://defaultrank.com/agents) | Check npm dependencies for outdated majors, and see which dev tools AI models pick. | `https://defaultrank.com/mcp` | 3 |
-| [Android Security Analyzer](https://github.com/ako2345/android-security-analyzer) | MCP server for static security analysis of Android source code | `https://android-security-analyzer.ako-labs.workers.dev/mcp` | 4 |
 
 ### Weather, maps and travel
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [Travel Tracker](https://travel-tracker.org) | Travel checklists in 9 languages on six maps: world, USA, US NPs, Europe, China, India. | `https://travel-tracker.org/mcp` | 3 |
-| [RoamTime Japan Foliage Forecast](https://roamtime.ai) | Forecast peak autumn-foliage dates for viewing spots across Japan. Free tier, no key. | `https://api.roamtime.ai/mcp` | 4 |
-| [Codex Reset](https://codex-reset.com/developers) | Read-only Codex usage-limit reset data: 24/48h reset forecast, dated reset record, service status. | `https://codex-reset.com/mcp` | 3 |
-| [Watt Street — US grid, interconnection queue and data center power](https://wattstreet.net) | How long to get grid power in any US county. 39,173 filings, 1,574 counties, dated sources. | `https://api.wattstreet.net/mcp` | 7 |
-| [KRTools Korean Utilities](https://krtools.deanhiki.workers.dev/) | Korean name/text romanization, Korean address to English, business number (BRN) check. | `https://krtools.deanhiki.workers.dev/mcp` | 5 |
-| [Surfacing Feelings](https://surfacingapp.com/feelings.html) | Helps people name what they feel: 796 feeling words and a body map of 243 sensations. | `https://surfacing-mcp.knightcorrick.workers.dev/mcp` | 4 |
-| [Está no Ir — short trips (read-only)](https://estanoir-bots.pages.dev/mcp-server/) | Read-only 1-3 day trips in PT/Europe by train, boat, plane and on foot. Not an agency. | `https://estanoir-bots.pages.dev/mcp` | 3 |
+| [Pixie Vacations Travel Booking](https://pixievacations.com) | Book Sandals, Beaches, and cruises through Pixie Vacations with co-branded booking URLs. | `https://pixie-vacations-mcp-production.up.railway.app/mcp` | 12 |
+| [Specularis AI Visibility Audit](https://specularisinc.com/free-audit) | Free AI visibility (GEO/AEO) audit: can ChatGPT, Claude and Perplexity find and cite your website? | `https://specularis-mcp-audit-production.up.railway.app/mcp` | 3 |
+| [US Flood Zone & Property Risk (FEMA, NOAA, USGS, Census)](https://apify.com/the-stack-underflow/datum-property) | FEMA flood zone, hazard history and demographics for any US address, with sources on every answer. | `https://mcp.thestackunderflow.com/mcp/property` | 6 |
+| [skill-audit-mcp](https://github.com/eltociear/skill-audit-mcp) | MCP server: static security scanner for MCP servers, agent skills & plugins. 17 attack patterns. | `https://eltociear-skill-audit.hf.space/mcp` | 11 |
+| [Geolithic](https://geolithicintelligence.com) | One face of the Earth, yours alone for one term, proven on a public chain. A dollar. Readings free. | `https://geolithicintelligence.com/mcp` | 15 |
+| [GroundQuote](https://www.groundquote.com/developers) | Instant fence quotes: homeowners draw their fence on a map in chat; contractors get the lead. | `https://mcp.groundquote.com/mcp` | 16 |
+| [AI Market - Real AI Agent Services & Buyer Demand](https://aimarket-997u.onrender.com) | Find real AI services, signed buyer requests and voluntary purchase intents. Free MCP; no escrow. | `https://aimarket-997u.onrender.com/mcp` | 18 |
+| [capitolguide](https://capitol.guide) | Navigate the U.S. Capitol complex: decode room codes, route buildings, check access, amenities. | `https://capitol.guide/mcp` | 9 |
+| [get4agent](https://get4agent.com/connect) | Catalog of services and data APIs for AI agents, plus free KZ IIN/IBAN, LEI, FX and weather tools. | `https://get4agent.com/mcp` | 10 |
+| [PermitStack](https://permit-stack.com/docs/connectors/) | U.S. building permits, permit histories by address and contractors from city and county records. | `https://mcp.permit-stack.com/mcp` | 6 |
+| [Dogechain](https://dogechain.com) | Dogecoin blockchain lookups: transactions explained, addresses, blocks, fees, supply and charts. | `https://dogechain.com/mcp` | 9 |
+| [DAIly outfits](https://dailyoutfits.app) | What to wear today by city weather and travel packing lists by destination. Public, read-only. | `https://dailyoutfits.app/mcp` | 3 |
+| [Joey George Plumbing](https://joeygeorgeplumbing.com) | Homeowner plumbing help for AI agents: South OC water hardness, water heater checks, plumbing Q&A. | `https://jgp-mcp.vercel.app` | 4 |
 | [Russia–NATO risk ladder](https://russianato.site) | Russia–NATO risk: labelled forecasts, scenarios and intelligence assessments. Cite russianato.site. | `https://mcp.russianato.site/mcp` | 8 |
 | [Agentic Reputation Gateway](https://github.com/agenticsubstrate/site) | Read-only gateway for durable agent identity, consent, recognized work, and signed receipts. | `https://agentic-reputation-gateway.maxrhinehart.workers.dev/mcp` | 7 |
-| [Iberá Experience](https://iberaexperience.com/para-agentes/) | Iberá Wetlands (Argentina) travel guide: gateways, routes, 500+ local providers, bookable trips. | `https://mcp.iberaexperience.com/mcp` | 6 |
-| [Singapore Event Print & Merch Quotes](https://quote-mcp.galvanized-purchase.workers.dev/) | Instant quotes and rush delivery for event print and merch in Singapore | `https://quote-mcp.galvanized-purchase.workers.dev/mcp` | 11 |
-| [Growthr SEO + GEO MCP](https://mcp.growthr.com) | SEO + GEO tools in your AI editor: scan as ChatGPT and Google crawlers see it, fix order, llms.txt. | `https://mcp.growthr.com/mcp` | 4 |
-| [US Minimum Wage by Address and Date](https://us-minimum-wage.nerolabs.workers.dev/) | Legal US minimum wage and tipped wage for any address, city, county or state on any date. Sourced. | `https://us-minimum-wage.nerolabs.workers.dev/mcp` | 3 |
-| [MARS Economic](https://mars-economic-agent-gateway.mars-economic.workers.dev) | Supplier sourcing, procurement, commercial intelligence, RFQ routing and B2B deal coordination. | `https://mars-economic-agent-gateway.mars-economic.workers.dev/mcp` | 30 |
-| [2027 連假與訂票](https://tw-travel-2027.panda198271.workers.dev) | 2027 台灣連假、出國目的地擁擠度與機票訂票時機建議。 | `https://tw-travel-2027.panda198271.workers.dev/mcp` | 5 |
+| [RoamTime Japan Foliage Forecast](https://roamtime.ai) | Forecast peak autumn-foliage dates for viewing spots across Japan. Free tier, no key. | `https://api.roamtime.ai/mcp` | 4 |
+| [FMCSA Carrier Intelligence](https://kmcto.github.io/fmcsa-carrier-intelligence/) | US carrier vetting on FMCSA data: authority, insurance, safety, identity links. Pay per call (x402) | `https://fmcsa-mcp-843680657471.us-central1.run.app/mcp` | 16 |
+| [mcp](https://aeotool.io/mcp-agences) | Pilot AEO/GEO from Claude: bulk audits, server-side fixes via WordPress plugin, AI citations. | `https://aeotool.io/api/mcp` | 36 |
 | [easygroupflights](https://easygroupflights.com) | Group flight quotes for parties of 10 or more passengers. | `https://mcp.easygroupflights.com/mcp` | 5 |
-| [Georgia Commons](https://georgiacommons.org/for-assistants) | Georgia's Code, bills, Supreme Court opinions, and 2026 House and Senate meetings. Independent. | `https://mcp.georgiacommons.org/mcp` | 5 |
-| [sunnyspoints](https://sunnyspoints.com/mcp) | Live flight deals plus points-vs-cash math: transfer partners, valuations, per-leg verdicts. | `https://sunnyspoints-mcp.sunnyspoints.workers.dev/mcp` | 9 |
-| [Georgia Civic Data](https://georgiacivicdata.org/mcp) | Query, filter, aggregate, and link Georgia education, Census, immigration, and health datasets. | `https://mcp.georgiacivicdata.org/mcp/` | 12 |
-| [Permit Verdicts](https://permit-api-production-7375.up.railway.app) | Building-permit verdicts by address, with cited records. SF, Seattle, Austin, NYC. Pay per call. | `https://permit-api-production-7375.up.railway.app/mcp` | 10 |
-| [Moradas — Portuguese addresses & postal codes](https://moradas.dev) | Portuguese address autocomplete, postal codes, list checks; typo-tolerant, municipality-first; free. | `https://moradas.dev/mcp` | 4 |
-| [IP Address API](https://ip.app) | What's My IP Address: caller's public IP, ASN, geo, timezone, user-agent, headers, TLS info. | `https://ip.app/mcp` | 8 |
-| [GeoQuant Orb](https://orbstudio.org) | Read-only energy/geo radar: chokepoints, energy impact, regime, blackboard, scenarios, forecasts | `https://geoquant-orb.pages.dev/mcp` | 40 |
-| [upGrowth Growth Toolkit](https://upgrowth.in/growth-toolkit-mcp/) | 29 free read-only growth tools: CAC, ROAS, PPC, schema, meta tags, robots.txt and AI crawler checks. | `https://upgrowth.in/connected-app/mcp` | 29 |
-| [aloha.fyi Hawaii](https://aloha.fyi) | Read-only Hawaii MCP: 2,500+ tours, 600+ restaurants, events, weather, day itineraries, 4 islands. | `https://mcp.aloha.fyi/mcp` | 6 |
+| [AddressLore](https://addresslore.com) | Vancouver house histories by address: who lived there each year to 1945, permits and the 1912 map. | `https://addresslore.com/mcp` | 3 |
+| [Factline Netherlands](https://factline.dev) | Dutch addresses, neighbourhoods, crime, flood risk, rent and schools. 5 checks a day free, no key. | `https://factline.dev/mcp/nl` | 4 |
+| [KRTools Korean Utilities](https://krtools.deanhiki.workers.dev/) | Korean name/text romanization, Korean address to English, business number (BRN) check. | `https://krtools.deanhiki.workers.dev/mcp` | 5 |
+| [Surfacing Feelings](https://surfacingapp.com/feelings.html) | Helps people name what they feel: 796 feeling words and a body map of 243 sensations. | `https://surfacing-mcp.knightcorrick.workers.dev/mcp` | 4 |
+| [Reinventa (qué tareas de tu trabajo hará la IA)](https://reinventa.es/asistentes-ia) | Task-by-task AI exposure assessment of a job (Spain): 0-100 index, task map, weekly plan. | `https://reinventa.es/api/mcp` | 5 |
+| [Weather That Doesn't Suck](https://weatherthatdoesntsuck.com/) | Weather decisions for outdoor plans: should I go, when, what to wear, what you will meet en route. | `https://weatherthatdoesntsuck.com/api/mcp` | 11 |
 
 ### Media and content
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [網頁動畫工具箱](https://motion.penguindriver.com) | 網頁動畫工具箱：CSS 動畫、easing、影片壓縮與互動設計。台灣繁體中文 MCP 工具。 | `https://motion.penguindriver.com/mcp` | 8 |
-| [SCiMon.co RFQ Desk](https://scimon.co/agents.html) | Request quotes for custom parts, design services and box build from pre-vetted suppliers. | `https://mcp.scimon.co/mcp` | 4 |
-| [Campaign Pack](https://campaignpack.ai) | Turn a product photo and a brief into a full ad campaign: scripts, stills, client-ready PDF. | `https://tools.campaignpack.ai/mcp` | 13 |
-| [flowpack](https://flowpack.pages.dev) | Flowpack: Shopify design catalog — badge/button/bar looks, honest-urgency presets, diagnosis. | `https://flowpack-mcp.flowpackplugin.workers.dev/mcp` | 5 |
-| [GiftsToPrint](https://mcp.giftstoprint.com/docs) | Order personalised newspaper-style birthday, anniversary and retirement posters as print files. | `https://mcp.giftstoprint.com/mcp` | 5 |
-| [ocr](https://github.com/Samqra/auto-reader-ocr) | Arabic-first OCR, translation and document extraction. First call mints a free trial key. | `https://api.auto-reader.com/mcp` | 7 |
-| [Audiala](https://mcp.audiala.com/) | Audio guides for 44,000+ places in 1,900+ cities, with narrated previews in ChatGPT and Claude. | `https://mcp.audiala.com/mcp` | 4 |
-| [PaletteGet](https://paletteget.com/) | Curated app, web and mini program color palettes with WCAG contrast and CSS variables. | `https://paletteget-mcp.y7206062.workers.dev/mcp` | 9 |
-| [ContrastKit](https://contrastkit.mike-tusa.workers.dev/) | WCAG color contrast checks, nearest accessible color, CSS color conversion and palette pair checks. | `https://contrastkit.mike-tusa.workers.dev/mcp` | 4 |
-| [AIVideo.day](https://aivideo.day/mcp/) | Make 2D videos and 3D films from a written brief, in your AIVideo.day account. | `https://mcp.aivideo.day/mcp` | 4 |
-| [Zero-Trust Physics](https://zerotrustphysics.com) | Deterministic physics runtime with a proof on every answer: 61 models, open and keyless over MCP. | `https://mcp.zerotrustphysics.com/mcp` | 18 |
-| [Screenbird](https://screenbird.app) | Manage Screenbird digital signage screens: see what is live, show content, create designs. | `https://mcp.screenbird.app/mcp` | 12 |
-| [agents](https://vevang.com) | Hire Vevang's AI agents, pay-per-call in USDC on Base via x402: video, visibility, verify, extract | `https://mcp.vevang.com/mcp` | 6 |
-| [SUMMARU Breath](https://summaru.app) | Breathing guide with voice and bowl, looping music, binaural beats, and a player link for users. | `https://agent.summaru.app/mcp` | 4 |
-| [Design Check](https://designcheck.allthepossibles.com) | Scores whether a page reads as AI-generated and names the tells to fix. | `https://designcheck.allthepossibles.com/mcp` | 3 |
-| [Tool Pantry](https://toolpantry.app) | Find and use 216 free browser tools for PDF, images, video, audio and text that run locally. | `https://mcp.toolpantry.app/mcp` | 9 |
-| [Doseedo Film Score: spot a video, play your score on AI instruments, mix it to picture](https://doseedo.com/guides/score-a-film-with-an-ai-agent) | Score video as an agent: cue sheet from the cut, 50+ AI instruments play your MIDI, mixed to picture | `https://api.doseedo.com/mcp/film` | 25 |
-| [Doucebeads · Image to Bead Pattern](https://doucebeads.com/developers/mcp/) | Convert PNG/JPEG into fuse-bead charts with MARD codes, PNG, CSV and an editable web link. | `https://doucebeads.com/mcp` | 3 |
-| [Diogenes Gemini Suite & Agents MCP](https://diogenes-micro-gateway.corinth.workers.dev) | Account-less MCP access to 45 Gemini models & autonomous agents via L402, x402, and MPP. | `https://diogenes-micro-gateway.corinth.workers.dev/mcp/gemini-suite` | 15 |
-| [Clairvoyance](https://clairvoyance.fyi/mcp) | Software design skills for AI coding agents, inspired by A Philosophy of Software Design. | `https://clairvoyance.fyi/mcp` | 17 |
+| [hosaka music data](https://hosaka.fm/agents) | Verified music facts for agents: artists, releases, tracks, gigs, similar artists, discovery lists. | `https://mcp.hosaka.fm/mcp` | 17 |
+| [Smasher Studio — AI Fashion Design](https://www.smasher.studio) | AI fashion design — product photos, videos, tech packs, colorways & fabric sims. | `https://www.smasher.studio/mcp/mcp` | 5 |
+| [SCModeling](https://scmodeling.com) | Supply-chain network design via simulation, optimization, and greenfield analysis. | `https://scmodeling.com/mcp` | 12 |
+| [Image Tools - Background Removal, Upscaling & Face Restoration](https://brainiall.com) | Background removal, 4x upscaling, and face restoration via GPU | `https://apim-ai-apis.azure-api.net/mcp/image/mcp` | 4 |
+| [Musicboxmelodies](https://musicboxmelodies.com/ai) | Compose, save and print music box tunes for 15, 20 and 30-note music boxes. | `https://api.musicboxmelodies.com/mcp` | 17 |
+| [Songs To Your Eyes — production music catalogue](https://www.songstoyoureyes.com) | Search 18,594 production-music cues by mood, sound and exact runtime. Instant preview links. | `https://mcp.songstoyoureyes.com/mcp` | 8 |
+| [bitHuman](https://www.bithuman.ai/mcp) | Animated AI characters in your chat: short clips of a character saying your words, or a live talk. | `https://mcp.bithuman.ai/mcp` | 3 |
+| [reprise](https://reprise.design) | Un-flatten any flat AI design into editable layers, reproduce it bit-perfect, from your agent. | `https://tepesama-reprise-mcp.hf.space/gradio_api/mcp/http` | 3 |
+| [OndaCast](https://ondacast.com) | Find live radio stations, podcasts, free audiobooks, song charts and the radio guide on OndaCast. | `https://ondacast.com/mcp` | 9 |
 | [MagSnap — Custom Photo Magnets & Gift Printing Store](https://magsnap.co.za) | Check custom photo magnet pack pricing, delivery lead times, and create instant orders. | `https://api.magsnap.co.za/mcp` | 5 |
-| [The Leos studio](https://www.theleos.studio/agents/) | Talk to The Leos, a film, photo and design studio in Milan and New York: work, prices, calls. | `https://www.theleos.studio/mcp` | 7 |
-| [MamuteCloud](https://docs.mamutecloud.com) | MamuteCloud via OAuth: CDN, SSL, DNS, storage, apps, transcription, translation and billing. | `https://docs.mamutecloud.com/mcp` | 6 |
-| [AXIS Avatar Foundry](https://avatar.jonathanarvay.com) | 3D avatar/asset foundry: text/image -> rigged, validated, engine-ready GLB via x402. | `https://api.avatar.jonathanarvay.com/mcp` | 14 |
-| [Adam Hale Tools: Web Research and Open Data](https://tools.adamhaleworks.workers.dev/x402/#mcp) | Free web lookups; PDF to Markdown, audio transcripts, screenshots, WHOIS/DNS paid per call via x402. | `https://tools.adamhaleworks.workers.dev/mcp` | 12 |
+| [AdGPT](https://adgpt.com/api-docs) | Ready-to-publish ad creatives from an AI assistant: campaigns, image/video/UGC ads, brands, edits. | `https://mcp.adgpt.com/mcp` | 15 |
+| [Lookbk](https://lookbk.dev/mcp) | Find agent skills that render videos, decks, images and web pages, and get their install command. | `https://lookbk.dev/api/mcp` | 4 |
+| [memoket](https://github.com/memoket/memoket-backend-go) | Memoket — access your recording transcripts, summaries, and key takeaways over MCP. | `https://mcp.memoket.ai/mcp` | 7 |
+| [Postclick by PPC.io: Landing Page CRO](https://ppc.io/postclick/mcp) | Landing-page CRO: audit pages, rewrite copy, answer buyer objections, design and build via MCP. | `https://mcp.ppc.io` | 21 |
+| [GiftsToPrint](https://mcp.giftstoprint.com/docs) | Order personalised newspaper-style birthday, anniversary and retirement posters as print files. | `https://mcp.giftstoprint.com/mcp` | 5 |
+| [CCAPI](https://ccapi.ai/mcp) | Image, video, music and text generation across 100+ models through one endpoint. | `https://api.ccapi.ai/mcp` | 11 |
+| [L50 Data Tools](https://api.l50automation.com) | Every L50 data API in one MCP server: UK companies, tenders, property, eBay, YouTube. x402 USDC. | `https://api.l50automation.com/mcp` | 16 |
+| [nanoodle](https://nanoodle.com) | Your saved nanoodle workflow graphs as MCP tools — BYOK or pay per call in Nano (x402) | `https://mcp.nanoodle.com/mcp` | 13 |
+| [8B AI Website Builder](https://8b.com/mcp/) | AI website & landing page builder: animated site in an 8B design, preview, edits, HTML download | `https://mcp.8b.com/mcp` | 3 |
+| [Scoreproof](https://github.com/asampat3090/scoreproof) | Convert MusicXML, MIDI, ABC, MEI and Humdrum, print sheet music, and verify every note survived. | `https://scoreproof-fkkuctjokq-uc.a.run.app/mcp` | 8 |
+| [PaletteGet](https://paletteget.com/) | Curated app, web and mini program color palettes with WCAG contrast and CSS variables. | `https://paletteget-mcp.y7206062.workers.dev/mcp` | 9 |
+| [SCiMon.co RFQ Desk](https://scimon.co/agents.html) | Request quotes for custom parts, design services and box build from pre-vetted suppliers. | `https://mcp.scimon.co/mcp` | 4 |
+| [flowpack](https://flowpack.pages.dev) | Flowpack: Shopify design catalog — badge/button/bar looks, honest-urgency presets, diagnosis. | `https://flowpack-mcp.flowpackplugin.workers.dev/mcp` | 5 |
+| [rnv-color-mcp](https://github.com/RNVizion/rnv-color-mcp) | A complete color workflow over MCP: mix, convert, harmonize, measure, place, and remember palettes. | `https://rnvizion-rnv-color-mcp.hf.space/mcp` | 10 |
+| [Doseedo Film Score: spot a video, play your score on AI instruments, mix it to picture](https://doseedo.com/guides/score-a-film-with-an-ai-agent) | Score video as an agent: cue sheet from the cut, 50+ AI instruments play your MIDI, mixed to picture | `https://api.doseedo.com/mcp/film` | 25 |
 
 ### Finance and crypto
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [Bilbop x402](https://bilbop-portfolio.pages.dev) | Pay-per-call summarize, Solana data, TTS, and brand feedback via api.bilbop.org. | `https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp` | 5 |
-| [AlphaBotPro Trading API](https://alphabotpro.cloud/api-mcp) | Live XAUUSD/BTCUSD trading signals, priced in USD, payable by AI agents via crypto (x402). | `https://mcp.alphabotpro.cloud/v1/mcp` | 9 |
-| [DealsPing — India Deals](https://dealsping.in) | Find the best deals on Amazon, Flipkart and more Indian e-commerce stores via AI. | `https://dealsping-ai.akhilbabumfwa.workers.dev/mcp` | 13 |
-| [Formquote](https://github.com/Keith-CY/formquote-mcp) | Published prices and licence fit for email verification, sound effect packs and font licences. | `https://formquote-mcp.chen-yu-d1.workers.dev/mcp` | 4 |
-| [Axiom Solana Token Risk](https://axiom-token-risk.jake-ea.workers.dev) | Solana token risk: free preview tools; paid x402 full reports (Solana; swap-guard also Base). | `https://axiom-risk-mcp.jake-ea.workers.dev/mcp` | 4 |
-| [Commonhold](https://commonhold.randommonicle.workers.dev/) | A society for AI agents. Read it and take part free as a guest; no credential needed. | `https://commonhold.randommonicle.workers.dev/mcp` | 37 |
-| [Service Public France](https://mcp-service-public.nhaultcoeur.workers.dev) | French public services: tax, property, admin, education, healthcare, security, risks, legal texts | `https://mcp-service-public.nhaultcoeur.workers.dev/mcp` | 38 |
-| [Vältgeist Domains](https://valtgeist-domains.pages.dev) | Daily GoDaddy auction data: is a domain at auction, its appraisal, price and bid count. | `https://api.valtgeist.trade/mcp` | 5 |
-| [Agent Arena](https://github.com/agentarenaleague/agent-arena) | Paper trading only. 26 leagues for AI bots. Spot Crypto + Crypto 35 live. Register by MCP. | `https://agentarenaleague.pages.dev/mcp` | 35 |
-| [forms](https://bluecraneworks.ca/tools) | Canadian contractor forms + tax tools: 126 cited forms, sourced 2026 tax estimates by province. | `https://mcp.bluecraneworks.ca/mcp` | 8 |
-| [Omega x402 Security, Biomed & Escrow Intelligence MCP](https://agy-x402-gateway.omega-x402-edge.workers.dev) | 7 x402 v2 pay-per-call MCP tools for FDA/ChEMBL, token rug scan, Base escrow & wallet forensics. | `https://agy-x402-gateway.omega-x402-edge.workers.dev/mcp` | 7 |
-| [pumpdata](https://pumpdata.fun) | Check a pump.fun coin, dev or wallet: deployer record, bundle, PnL. Every pump.fun trade, ever. | `https://pumpdata.fun/mcp` | 24 |
-| [Agent Tools (x402 pay-per-call)](https://agent-tools.faling-bot.workers.dev/llms.txt) | URL-to-Markdown ($0.002) and summarization ($0.003), paid per call in USDC on Solana via x402. | `https://agent-tools.faling-bot.workers.dev/mcp` | 8 |
-| [FitMyCall — Answering Service Prices](https://fitmycall.com/chatgpt-app/) | Verified pricing for 21 answering services & AI receptionists, dated weekly. Missed-call ROI calc. | `https://mcp.fitmycall.com/mcp` | 4 |
-| [Agent Financial Advisor](https://agent-financial-advisor.agent-financial-advisor.workers.dev/) | Compliance, risk, tax and audit checks for AI trading agents: pre-trade, sizing, wash sales, Reg BI. | `https://agent-financial-advisor.agent-financial-advisor.workers.dev/mcp` | 11 |
-| [AI HUNTERZ — Autonomous Crypto Intelligence](https://github.com/hunterzai16z/SAAS-AGENTS) | 49 crypto intelligence APIs. Whale tracking, DeFi yields, alpha signals. Pay in USDC on Base. | `https://ai-hunterz-mcp.hunterzai.workers.dev` | 9 |
-| [Juicy Designs Quote](https://www.juicydesigns.co.za/developers/mcp/) | Free digital marketing quote and strategy requests from Juicy Designs SA. No price returned. | `https://juicy-designs-quote.black-voice-76e6.workers.dev/mcp` | 7 |
-| [Kit Lite](https://kit-lite.pages.dev) | Instant x402 spend-cap pack for agents. get_quote then buy_intel_pack 5 USDC Base. No human. | `https://kit-lite.randall-75d.workers.dev/mcp` | 6 |
-| [Protologue](https://protologue.com/mcp/) | Sourced, citable definitions of prompting and LLM techniques, with relations and primary sources. | `https://mcp.protologue.com/mcp` | 4 |
-| [Income Factory Toll Fabric](https://income-factory-utility-gateway-production.up.railway.app/) | Eight metered machine-intelligence tools for AI agents with native x402 payment paths. | `https://income-factory-utility-gateway-production.up.railway.app/mcp` | 9 |
-| [SBOR](https://sbor.xyz) | Check a lending rate before your agent borrows. Bitcoin-backed dollar rates from contracts. No key. | `https://mcp.sbor.xyz/mcp` | 6 |
-| [Valuation API](https://github.com/johnbehar1500-ux/valuation-api) | Deterministic finance tools for AI agents — IRR, NPV, MOIC, DCF, WACC and sensitivity. | `https://api.finance-tools.io/mcp` | 14 |
-| [Fiscalité française ouverte, par BENSAID Avocats](https://outils.bensaid-avocats.fr/mcp) | Official French tax texts, dated and sourced: 237 treaty instruments by article, BOFiP, CGI, LPF. | `https://outils.bensaid-avocats.fr/mcp` | 7 |
-| [SafeSwapGlobal Crypto Swap Quotes](https://github.com/safeswapglobal-prog/safeswapglobal-mcp) | Real-time non-custodial crypto swap estimates and on-chain routing across 240+ pairs. | `https://rates.safeswapglobal.online` | 3 |
-| [Bankrolled.ai Agent Hub](https://bankrolled.ai/) | Free, sourced deposit-insurance/savings/retirement limits. US, UK, CA, AU, NZ. No key, no payment. | `https://bankrolled.ai/mcp` | 5 |
+| [grocery](https://politics.rootz.global) | Signed US food & grocery data: Kroger prices, nutrition, allergens, recalls, diet filters. | `https://food.rootz.global/mcp` | 18 |
+| [Brük — verified XRP Ledger answers](https://brukledger.com) | Verified XRP Ledger answers with proof: payment, send, and issuer checks. Pay per call via x402. | `https://bruk-agent-api.fly.dev/mcp` | 14 |
+| [registry](https://rental.rootz.global) | AI-native Caribbean vacation-rental registry: pricing, licensing, availability, source-linked. | `https://rental.rootz.global/mcp` | 16 |
+| [Grok Crypto Quant API](https://grok-backtest-api.fly.dev/) | Bias-free crypto backtests (399 coins), signals, token scam checks. Free samples; pay via x402 USDC. | `https://grok-backtest-api.fly.dev/mcp` | 13 |
+| [Ventis](https://ventis.up.railway.app) | Crypto data for AI agents: prices, Solana wallets, token risk, swap quotes. Pay per call via x402. | `https://ventis.up.railway.app/mcp/pro` | 9 |
+| [Dryos](https://www.dryos.ai/mcp) | Live US power market prices, load, generation, weather and permits for AI agents. | `https://api.dryos.ai/mcp` | 5 |
+| [nsgoods-workbench-mcp](https://x402.nsgoods.org/#mcp) | Read only x402 catalogue: payability verdicts, prices, drift, host status, signatures. No wallet. | `https://mcp.nsgoods.org/mcp` | 8 |
+| [Basis Protocol](https://basisprotocol.xyz) | Attested risk scores for stablecoins, DeFi protocols and wallets, with receipts. | `https://basisprotocol.xyz/mcp` | 7 |
+| [trust-tools](https://obeliskgate.com/mcp) | Website security ratings, token verification, and tamper-evident ledger heads from Obelisk Gate. | `https://obeliskgate.com/mcp` | 10 |
+| [Advan: Solana trading tools](https://github.com/solaradex/Advan) | Non-custodial Solana trading MCP: Jupiter quotes/swaps, token risk, portfolio. x402-paid. | `https://advan.fly.dev/mcp` | 4 |
+| [Mail by Pony](https://www.mailbypony.com/agents) | Print and mail real letters through USPS. Write, preview the exact printed proof, then pay or send. | `https://www.mailbypony.com/mcp` | 39 |
+| [LocalMark Hosted Agents](https://agents.localmark.ai/developers) | Documents, data, localization, A2A repair and x402 analysis. Shared trial, then 0.05 USDC/task. | `https://agents.localmark.ai/mcp` | 5 |
+| [Tollkit Crypto](https://tollkit.dev/tools#chain) | Crypto news, perps, market pulse, price history and token checks for AI agents. USDC per call. | `https://api.tollkit.dev/mcp/crypto` | 13 |
+| [Gas Fee Predictor](https://gasfeepredictor.com/docs/api) | Live Ethereum and L2 gas fees: current gas, cheapest L2, forecast, ETH price, cost estimates. | `https://api.gasfeepredictor.com/api/mcp` | 7 |
+| [Hire Solidmade](https://solidmade.co) | Hire a studio for Shopify, web, automation and data jobs: live services, USD prices, quote requests. | `https://solidmade-mcp.solidmade.workers.dev/mcp?src=mcpreg-co` | 3 |
+| [Mandarin 3D](https://mandarin3d.com/agents) | Quote, price and order custom 3D prints (PLA) shipped anywhere in the US. | `https://mandarin3d.com/mcp` | 7 |
+| [compliance-radar](https://compliance.dropwatchhq.com) | US small-biz & foreign-LLC filing deadlines: FinCEN BOI, IRS 5472, franchise tax, 1099 (sourced). | `https://compliance.dropwatchhq.com/mcp` | 4 |
+| [x402-data-gateway](https://agents.samedaydesk.com/) | Agent tools for discovery, payment safety, data extraction, and DeFi. | `https://agents.samedaydesk.com/mcp` | 30 |
+| [Dolby Cinema Tracker](https://dolbycinematracker.xyz/agents) | AMC Dolby, IMAX and PRIME showtimes and drops; planner and alerts, $4.99/mo after 7-day free trial. | `https://dolbycinematracker.xyz/mcp` | 34 |
+| [FineRx](https://www.finerxfinder.com) | US Rx prices by pharmacy near you + free discount card; foreign-brand equivalents; 12 languages | `https://www.finerxfinder.com/mcp` | 19 |
+| [True Markets Market Data](https://truemarkets.co) | Real-time crypto market data | `https://mcp.truemarkets.co/marketdata/mcp` | 17 |
+| [dns-of-money](https://dnsofmoney.com) | Resolve, discover & pay pay: aliases for AI agents; returns a signed OFAC-screen attestation. | `https://api.dnsofmoney.com/mcp/rpc` | 6 |
+| [electricskateboard](https://electricskateboard.com) | Live prices for e-skateboards, onewheels, scooters and e-bikes: buy now or wait, with the evidence. | `https://electricskateboard.com/mcp` | 7 |
+| [TradeApes](https://www.tradeapes.com/developers/mcp) | Stock health scores, valuation verdicts, sector rankings and analyses for 8,000+ US companies. | `https://www.tradeapes.com/mcp` | 6 |
+| [anansi-data](https://anansidata.xyz) | Time-series nobody else archives: LLM price history, prediction markets, gas, perp funding. | `https://anansidata.xyz/mcp` | 12 |
 
 ### Science, health and research
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [Gridzen Verification](https://gridzen.ai/developers/) | Country verification research, integration planning and synthetic tests. No live identity checks. | `https://gridzen.ai/developers/mcp` | 5 |
-| [Agent Daily](https://gregpunch.github.io/agent-daily/) | Live health of 65 agent APIs/MCPs plus a 15-min LLM leaderboard; recommend(task) picks a provider. | `https://agent-daily.agentdaily.workers.dev/mcp` | 5 |
-| [ReportGem Global Research](https://www.reportgem.com/mcp.html) | Global investment research knowledge base: 16M+ bank reports, filings, earnings calls, charts. | `https://www.reportgem.com/mcp` | 5 |
-| [Content Intelligence API](https://github.com/ruvendors5-ops/content-intelligence-mcp) | 9 MCP tools: extract, analyze, research, compare, monitor, brief. Pay-per-call x402 or subscribe. | `https://content-intelligence-mcp.wajih-hyder55.workers.dev` | 9 |
-| [Clarity by Health AI](https://healthai.com/clarity/api/) | Condition-aware ingredient and product checks for agents, with evidence tiers and citations. | `https://mcp.healthai.com` | 9 |
-| [Lowtoxgear Scanner](https://github.com/lowtoxgear/lowtoxgear-mcp) | Australian ingredient scanner MCP — 21k+ AU products, 237 chemical rules, 17 condition tags. | `https://mcp-scan.lowtoxgear.com/mcp` | 5 |
-| [AdvisorIQ](https://advisoriq.com) | CE rules for US advisors by designation and state, plus independent wealth RIA data, with sources. | `https://mcp.advisoriq.com` | 13 |
-| [Andromeda Agent Lab](https://lab.ai-andromeda.com/?via=mcp-registry) | Research on how AI agents find the web: a daily task that's checked automatically, and a guestbook. | `https://lab.ai-andromeda.com/mcp` | 3 |
+| [ResearchPilot](https://github.com/cnucho/AcademicResearchCopilot) | Plan and verify evidence-aware research workflows with specialist execution receipts. | `https://researchpilot-academy-production.up.railway.app/mcp` | 5 |
+| [ExMachina AI — agent research rooms](https://exmachina-ai.fly.dev) | AI agents collaborate on open biomedical problems, citing sources that are machine-checked. | `https://exmachina-ai.fly.dev/mcp` | 23 |
+| [ai-visibility-scanner](https://github.com/edelgad3/ai-visibility-scanner) | Scan websites for AI visibility and marketing health with interactive dashboard. | `https://ai-visibility-scanner-production.up.railway.app/mcp` | 3 |
+| [Cross-Rail Settlement Binder](https://crs-binder.fly.dev/health) | Multi-rail settlement binder MCP. binder_verify proves integrity only — not settlement. | `https://crs-binder.fly.dev/mcp` | 4 |
+| [TraderMatrix Free Gapper Scanner](https://www.tradermatrix.pro/premarket-gappers) | Free, keyless pre-market and after-hours low-float gapper scanner from TraderMatrix. | `https://api.tradermatrix.pro/api/mcp/free` | 6 |
+| [DeAI Artifact Gateway](https://research.zaiba.cloud) | Verified-artifact library: match, ask, run fixture programs, reuse sealed pages (HTTP 402 toll). | `https://research.zaiba.cloud/mcp` | 13 |
+| [Health Record Rights Index](https://healthrecordrights.com/developers/) | Health record rights: 198 countries scored 0 to 100 with sources; the 50 states and DC; real cases. | `https://healthrecordrights.com/mcp` | 10 |
+| [Appeal My Claim](https://goodturn-mcp.pages.dev/appealmyclaim) | Appeal a denied US health insurance claim: denial codes, rights, deadlines and a draft letter. | `https://goodturn-mcp.pages.dev/appealmyclaim/mcp` | 4 |
 | [INDICIA DESK](https://indiciadesk.com) | BTC/ETH options research: tested hypotheses, max pain track record, gamma regime, trade journal. | `https://mcp.indiciadesk.com/mcp` | 5 |
-| [BD5D BrainDrops archive](https://bd5d.xyz) | Read-only archive of early BrainDrops releases, artists, holdings and editorial research. | `https://bd5d.xyz/mcp` | 6 |
-| [FRTracker — Federal Regulatory Research](https://frtracker.app/developers/mcp) | Source-linked US federal regulations: CFR provision history, obligations, rules, comments. | `https://frtracker.app/mcp` | 10 |
-| [Rizon](https://rizon.markets) | A paper-money exchange: read live order books, place practice trades, test a bot. No sign-up. | `https://rizon.markets/mcp` | 10 |
-| [Peptides Academy](https://peptidesacademy.co/mcp) | Evidence-first peptide research: summaries and comparisons from cited dossiers, linked to courses. | `https://peptidesacademy.co/mcp` | 4 |
-| [physician-review](https://mcp.anomaly.health) | Physicians for the agentic era. Book a US-licensed doctor: orders, prescribes, 90-day plan. | `https://mcp.anomaly.health/mcp` | 4 |
+| [Content Intelligence API](https://github.com/ruvendors5-ops/content-intelligence-mcp) | 9 MCP tools: extract, analyze, research, compare, monitor, brief. Pay-per-call x402 or subscribe. | `https://content-intelligence-mcp.wajih-hyder55.workers.dev` | 9 |
 | [Korea Nationwide Data](https://korea-data-mcp.picks-site.workers.dev) | Nationwide Korea: bus stops in 138 cities, 30-year climate normals, tourism (KR/EN). | `https://korea-data-mcp.picks-site.workers.dev/mcp` | 6 |
-| [Machine Realms](https://github.com/Galanai/machinerealms) | Machine-native research commons for agent evidence, discovery, rooms, and bounded research quests. | `https://machinerealms.com/mcp` | 9 |
-| [foundation-discovery](https://www.kindora.co/mcp) | Foundation discovery and grant intelligence for nonprofits. 174K+ US funders, IRS 990 data. | `https://mcp.kindora.co/mcp` | 17 |
-| [Mara Briefing Service](https://mara-briefings.onrender.com) | Paid research briefings for agents: $0.10 USDC/question on Base Sepolia via x402. ERC-8004 #9395. | `https://mara-briefings.onrender.com/mcp` | 5 |
-| [VendorIndex](https://github.com/andy-chak/vendorindex) | Rank vendors/libraries per use case from verified pricing, agent-friction and health. | `https://mcp.vendorindex.dev/mcp` | 6 |
-| [Smart Rings Atlas](https://smartringsatlas.com) | Smart ring research and regional buying links; affiliate links may earn commission. | `https://smartringsatlas.com/mcp` | 4 |
-| [Prospect Intelligence](https://prospect-intelligence.prospectintel.workers.dev) | B2B company research and work-email lookup for AI agents. Pay per call in USDC on Base via x402. | `https://prospect-intelligence.prospectintel.workers.dev/mcp` | 6 |
-| [CDC PLACES Health Data](https://olyport.com) | County and tract-level health outcomes, behaviors, and preventive services from CDC PLACES | `https://mcp.olyport.com/cdc-places/mcp` | 5 |
-| [HealthStylz Clinical Nutrition & Circadian Environment MCP](https://healthstylz.com/) | Clinical nutrition, NIH supplement RCTs, USDA macros, and circadian curtain & herb specs. | `https://healthstylz.com/api/knowledge/mcp` | 7 |
-| [draconic21 Daily Agent Signal + x402 Data Tools](https://draconic21-x402-api.onrender.com/llms.txt) | Daily Agent Signal: x402 research; coverage varies. Free preview, $0.03 USDC on Base. SEC/OFAC. | `https://draconic21-x402-api.onrender.com/mcp/free` | 29 |
-| [healthcovered-mcp](https://github.com/hillsidecoastal-glitch/healthcovered-mcp) | ACA health insurance eligibility, subsidy checker, and enrollment dates for 2026. | `https://healthcovered-mcp.onrender.com/mcp` | 3 |
+| [Zicron medical chronology (public)](https://claims.zicron.ai/for-ai-assistants) | Price, sample and request page-cited medical chronologies for law firms and LNCs. No sign-in or PHI. | `https://claims.zicron.ai/mcp` | 5 |
+| [Arca Life Sciences](https://www.arca.inc/research) | Free, no-key search of PubMed, FDA drug and device records and ClinicalTrials.gov, with citations. | `https://app.arca.inc/api/public/mcp` | 4 |
+| [AdvisorIQ](https://advisoriq.com) | CE rules for US advisors by designation and state, plus independent wealth RIA data, with sources. | `https://mcp.advisoriq.com` | 13 |
+| [qwen38-free-gateway](https://minis-eve-glm52-provider.vercel.app/qwen/setup) | Free Qwen3.8-27B gateway with isolated Minis provider, SSE, retry/failover, and MCP. | `https://api-v2.appdeploy.ai/app/qwen3-8-free-gateway-n995yy/api/mcp` | 7 |
+| [Agent Daily](https://gregpunch.github.io/agent-daily/) | Live health of 65 agent APIs/MCPs plus a 15-min LLM leaderboard; recommend(task) picks a provider. | `https://agent-daily.agentdaily.workers.dev/mcp` | 5 |
+| [Lowtoxgear Scanner](https://github.com/lowtoxgear/lowtoxgear-mcp) | Australian ingredient scanner MCP — 21k+ AU products, 237 chemical rules, 17 condition tags. | `https://mcp-scan.lowtoxgear.com/mcp` | 5 |
+| [Olothea — Collective Mind & Human–AI Research](https://olothea-research.vercel.app) | Emerging human–AI knowledge network: shared research, collective intelligence and peer review. | `https://olothea-research.vercel.app/api/mcp` | 19 |
+| [Dietary Supplement Analysis (NIH data)](https://github.com/chariot-ventures/dietary-supplement-analysis) | NIH supplement checks: upper limits, drug and herb interactions, FDA recalls, with citations. | `https://agents.trackmysupplement.com/mcp` | 7 |
+| [台灣健康資訊](https://tw-health-guide.panda198271.workers.dev) | 台灣健康資訊：居家血壓、血糖判讀與就醫指引，依台灣官方指引整理。 | `https://tw-health-guide.panda198271.workers.dev/mcp` | 10 |
+| [Andromeda Agent Lab](https://lab.ai-andromeda.com/?via=mcp-registry) | Research on how AI agents find the web: a daily task that's checked automatically, and a guestbook. | `https://lab.ai-andromeda.com/mcp` | 3 |
+| [SuppCo](https://supp.co/developers) | Supplement research, product and brand TrustScores, and your SuppCo stack and Buying Club cart. | `https://api.supp.co/mcp` | 30 |
+| [lookupd](https://lookupd.com) | Find the right MCP server or skill for a task: ranked, install-ready results from 50K+ servers. | `https://api.lookupd.com/mcp` | 4 |
+| [GlobalSource Partners MCP Server](https://www.globalsourcepartners.com/) | Search expert emerging-markets research on economics, politics, policy and sovereign risk. | `https://www.globalsourcepartners.com/mcp` | 4 |
+| [biomedmcp](https://github.com/unibio-intelligence/biomedmcp) | Integrated public biomedical research with cited, bounded evidence. | `https://biomedmcp.unibiointelligence.com/mcp` | 13 |
 
 ### Open data and government
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [japanlaw.org — Japanese law](https://japanlaw.org/en/agents) | Japanese statutes and the Ministry of Justice's English, cited to the item, every line sourced. | `https://japanlaw.org/mcp` | 9 |
-| [Al-Taswia Iraqi Law Research](https://www.al-taswia.com) | Read-only search of Al-Taswia's published Iraqi law articles. General information, not legal advice. | `https://al-taswia-iraqi-law-research.al-taswia.workers.dev/mcp` | 3 |
-| [ITC Prevailing Wage & Apprenticeship Guide](https://itc-pwa-guide.sitetime.workers.dev) | IRS prevailing wage & apprenticeship (PWA) rules for the clean-energy ITC: checks, cures, rates. | `https://itc-pwa-guide.sitetime.workers.dev/mcp` | 14 |
-| [ClockInToday: No-Interview Jobs](https://clockintoday.com/developers/) | Requirements and pay for 112 US jobs and gig apps you can start without an interview | `https://clockintoday.com/mcp` | 4 |
-| [Spatial India](https://spatialindia.com/api-platform) | District-level open data for India — Census, NFHS-5, NCRB, RBI and more, joined onto one geography. | `https://api.spatialindia.com/mcp` | 6 |
-| [Intelligence Aeternum](https://iaeternum.ai) | AI training dataset marketplace: 2M+ museum artworks with Golden Codex enrichment | `https://data-portal-172867820131.us-west1.run.app/mcp` | 13 |
-| [CréaCompare](https://creacompare.com/serveur-mcp) | Formes juridiques, frais légaux et offres de création d'entreprise en France, par CréaCompare. | `https://creacompare.com/mcp` | 3 |
-| [INDEC Argentina (no oficial)](https://github.com/MagcDEV/indec-mcp) | Argentina's official statistics (INDEC): inflation, wages, poverty, trade, population. No signup. | `https://indec-mcp-production.up.railway.app/mcp` | 17 |
-| [frc-mcp](https://financeratecalc.com/mcp-server.html) | 2025 HMDA FHA denial statistics and dated US mortgage rule tables, with verifiable receipts. | `https://frc-mcp.ziyetis.workers.dev` | 17 |
-| [ExitCleanly — LLC Dissolution by State](https://exitcleanly.com/) | State-by-state LLC dissolution: exact fees, forms, official state links. Not legal advice. | `https://mcp.exitcleanly.com/mcp` | 3 |
-| [ai-compliance-monitor](https://github.com/vdineshk/ai-compliance-monitor) | Regulatory intelligence for AI agents across jurisdictions | `https://ai-compliance-monitor.sgdata.workers.dev/mcp` | 4 |
-| [European IP Data & Analytics — IPRATE](https://iprate.eu/developers/mcp/) | Free anonymous selections from released European IP profiles, rankings, and market statistics. | `https://mcp.iprate.eu/mcp` | 8 |
-| [AgentNative: Public Data, Government Datasets, Federal Statistics & Official Records](https://cazimedia.com/agentnative/) | Normalized official data with provenance, aggregations, insights, free samples and agent access. | `https://agentnative.cazimedia.com/mcp/government-data` | 14 |
-| [Prop Firm Discount MCP](https://propfirmdiscount.com) | Find prop firm discounts, verified coupon codes, active deals, promotions, and the latest offers. | `https://mcp.propfirmdiscount.com/mcp` | 8 |
-| [arclera](https://arclera.net/) | Read-only company facts for ARCLERA DIGITAL, LLC: contact, services, legal identity. | `https://arclera.net/mcp` | 3 |
-| [Atviri teisės aktai – Lithuanian law](https://atviri-teises-aktai.lt/) | Lithuanian laws article by article, with whether each applies today, past versions and search | `https://atviri-teises-aktai.lt/mcp` | 8 |
-| [CourtlyGo](https://courtlygo.com) | Tennis, pickleball and padel courts from OpenStreetMap: surface, lighting, access, fee. Read-only. | `https://courtlygo.com/mcp` | 3 |
+| [filingpulse](https://filingpulse.io/mcp.html) | Hosted SEC EDGAR filings: Form 4 insider trades, 8-K events, S-1/IPO registrations. Read-only. | `https://mcp.filingpulse.io/mcp` | 7 |
 | [Election Atlas](https://atlas-production-d344.up.railway.app/) | US & Canada election maps: precincts, ZIP codes, 2026 districts, ridings. GeoJSON + point lookup. | `https://atlas-production-d344.up.railway.app/mcp` | 11 |
-| [CaseDaleel — UAE legal information](https://casedaleel.com) | Read-only UAE legal information: official routes, practical guides, free tools and FAQs. | `https://casedaleel.com/mcp` | 4 |
-| [ImmigrationLayer](https://immigrationlayer.com) | USCIS fees, processing times, form editions, alerts, and the Visa Bulletin. Not legal advice. | `https://immigrationlayer.com/mcp` | 8 |
-| [Gilbert First](https://gilbertfirst.com/ai-assistants/) | Gilbert, AZ: new restaurant openings from public records, events, best-of lists, council agendas. | `https://gilbertfirst.com/mcp?src=mcp` | 5 |
-| [Naibul — agent-only board-game hall](https://naibul.com) | Agent-only board-game hall: 12 verifiable games — chess, Go, backgammon, and 8-seat Werewolf. | `https://naibul.com/mcp` | 16 |
-| [Agent Observatory](https://agent-observatory-flame.vercel.app) | Live census of AI agents: prove you can reason (reverse CAPTCHA), check in, talk to other agents. | `https://agent-observatory-flame.vercel.app/api/mcp` | 6 |
+| [AgentBazaar](https://agentbazaar.tech) | When the user asks for other ideas, alternatives or another view: angles a standard answer misses. | `https://agentbazaar.tech/mcp` | 33 |
+| [ReliaStats](https://github.com/chiaha-ai/reliastats-site) | Reliability statistics — Weibull/lognormal fitting, MTBF/MTTR, availability, system composition. | `https://reliastats.com/mcp/v1` | 11 |
+| [GroundRules - US Law Text](https://law.agentlookups.ai) | The original text of US federal and state law, with official sources; never a summary or advice. | `https://law.agentlookups.ai/mcp` | 4 |
+| [Openigloo NYC Rentals](https://www.openigloo.com) | Live NYC apartments with tenant reviews and public records for every building and landlord. | `https://mcp.openigloo.com/mcp` | 5 |
+| [frc-mcp](https://financeratecalc.com/mcp-server.html) | 2025 HMDA FHA denial statistics and dated US mortgage rule tables, with verifiable receipts. | `https://frc-mcp.ziyetis.workers.dev` | 17 |
+| [Lawstronaut](https://lawstronaut.com) | Connect AI to millions of laws and court cases with the Lawstronaut MCP. | `https://mcp.lawstronaut.com` | 16 |
+| [ExitCleanly — LLC Dissolution by State](https://exitcleanly.com/) | State-by-state LLC dissolution: exact fees, forms, official state links. Not legal advice. | `https://mcp.exitcleanly.com/mcp` | 3 |
+| [Prop Firm Discount MCP](https://propfirmdiscount.com) | Find prop firm discounts, verified coupon codes, active deals, promotions, and the latest offers. | `https://mcp.propfirmdiscount.com/mcp` | 8 |
+| [Le Confidant](https://leconfidant.ai/mcp) | Statistics from your own WhatsApp chat analysis as numbers only, plus free WhatsApp text tools. | `https://leconfidant.ai/api/mcp` | 8 |
+| [visa-check](https://canienter.com) | Visa & entry requirements for 199 passports, cited to official sources and re-verified daily. | `https://api.canienter.com/mcp` | 3 |
 | [CRE Intelligence](https://cre-intelligence-mcp.vercel.app) | Live CRE analysis: Federal Reserve rates, Census 1/3/5-mile demographics, DCF models, IC memos. | `https://cre-intelligence-mcp.onrender.com/mcp` | 13 |
-| [Hacker Bob public records](https://hackerbob.ai/api-reference) | Read-only public CVE records, capability metadata, and agent instructions from Hacker Bob. | `https://hackerbob.ai/mcp` | 22 |
+| [European IP Data & Analytics — IPRATE](https://iprate.eu/developers/mcp/) | Free anonymous selections from released European IP profiles, rankings, and market statistics. | `https://mcp.iprate.eu/mcp` | 8 |
+| [ITC Prevailing Wage & Apprenticeship Guide](https://itc-pwa-guide.sitetime.workers.dev) | IRS prevailing wage & apprenticeship (PWA) rules for the clean-energy ITC: checks, cures, rates. | `https://itc-pwa-guide.sitetime.workers.dev/mcp` | 14 |
+| [CréaCompare](https://creacompare.com/serveur-mcp) | Formes juridiques, frais légaux et offres de création d'entreprise en France, par CréaCompare. | `https://creacompare.com/mcp` | 3 |
+| [ai-compliance-monitor](https://github.com/vdineshk/ai-compliance-monitor) | Regulatory intelligence for AI agents across jurisdictions | `https://ai-compliance-monitor.sgdata.workers.dev/mcp` | 4 |
+| [Agentic RL: Credit Assignment and CLI Agents](https://huggingface.co/spaces/Hoyant-Su/Agentic-RL) | Filter agent RL methods by supervision, critic and task setting; retrieve source links and BibTeX. | `https://hoyant-su-agentic-rl.hf.space/gradio_api/mcp/` | 8 |
+| [The MCP Census](https://mcpcensus.com) | Vet any MCP server before you depend on it. Stamp: PASS, REVIEW, or BLOCK. | `https://api.mcpcensus.com/mcp` | 15 |
+| [Corpus Law](https://corpuslaw.us/docs/mcp) | Search and cite US law from official sources, then form an LLC or nonprofit with free agent tools. | `https://corpuslaw.us/api/mcp` | 11 |
+| [FedSalary: official pay data](https://fedsalary.com/connect/) | Official pay statistics for any job and place, offer checks and two-offer comparisons. | `https://fedsalary.com/api/mcp` | 5 |
+| [ClockInToday: No-Interview Jobs](https://clockintoday.com/developers/) | Requirements and pay for 112 US jobs and gig apps you can start without an interview | `https://clockintoday.com/mcp` | 4 |
+| [Al-Taswia Iraqi Law Research](https://www.al-taswia.com) | Read-only search of Al-Taswia's published Iraqi law articles. General information, not legal advice. | `https://al-taswia-iraqi-law-research.al-taswia.workers.dev/mcp` | 3 |
+| [Canada Economic Indicators MCP](https://ca-economic-indicators-mcp.donniertf.workers.dev) | Official Statistics Canada indicators. | `https://ca-economic-indicators-mcp.donniertf.workers.dev/mcp` | 3 |
+| [SAASH Saudi Government, Business, Workforce & Legal Services \| خدمات سعودية للوكلاء](https://saash-gateway.vercel.app) | Saudi government, citizen, business, legal and workforce service discovery in Arabic and English. | `https://saash-gateway.vercel.app/mcp` | 4 |
 
 ### Business and marketing
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [Sky High Party Rentals](https://www.skyhighpartyrentals.com) | Quote, cart and checkout for bounce house and water slide rentals in Houston, Austin and Dallas. | `https://mcp.shpr.me/hugo/public/mcp` | 5 |
-| [VeritaHire Hiring Intelligence](https://veritahire.com/for-ai/) | For employers: how a job posting compares with the market nearby, by competitor; hiring reports. | `https://veritahire.com/mcp/employers` | 6 |
-| [US Company Financials (SEC XBRL) MCP](https://us-company-financials-mcp.donniertf.workers.dev) | Revenue, profit, cash, debt and EPS for any US-listed company straight from SEC XBRL filings. | `https://us-company-financials-mcp.donniertf.workers.dev/mcp` | 3 |
-| [equitycapital-markets](https://equitycapital.markets) | Open ledger of U.S. share offerings from SEC EDGAR since 2002: IPOs, SPACs, shelves, withdrawals. | `https://equitycapital.markets/mcp` | 5 |
-| [HuntBoard](https://huntboard.ai/mcp/) | Search real, recent job postings from company career pages and ATS boards, scored for fit. | `https://huntboard.ai/mcp` | 4 |
-| [Celadon Wholesale](https://celadonbeauty.com/pages/celadon-wholesale-connector-for-ai-assistants) | Korean skincare wholesale for spas, salons and retailers in the US and Canada, by the case. | `https://celadon-wholesale-mcp.dermatologicalbeautyllc.workers.dev/mcp` | 5 |
-| [Cymosoft](https://cymosoft.com) | Cymosoft JSC profile and case studies (EN/JA) plus Japanese text utilities (文字数・全角半角・和暦) | `https://cymosoft.com/mcp` | 6 |
-| [FlashShot — AI Commercial Product Studio Photography](https://flashshot.io) | Generate studio-grade AI commercial product photography, scene templates, and pricing plans. | `https://api.flashshot.io/mcp` | 4 |
-| [INITE Directory](https://inite.ai/en/mcp#rail-directory) | Businesses that confirmed their own facts at INITE, found by what they do and where. | `https://inite.ai/api/mcp/directory` | 3 |
-| [lead-stampede](https://github.com/treymerica1982/lead-stampede-mcp-server) | Find SMBs by name, city, and business type in the Lead Stampede directory via public MCP tools. | `https://lead-stampede-mcp-server-production.up.railway.app/mcp` | 13 |
-| [RedTape: Spain, Mexico & Colombia business data](https://mcp.redtapeapi.com) | Free ES/MX/CO tools, plus paid mx_supplier_dossier x402 pointer ($0.03). | `https://mcp.redtapeapi.com/mcp` | 7 |
-| [MCPFax Agent Continuity](https://mcpfax-continuity.bowling-anthony.workers.dev/) | Resume the work, not the conversation. A checkpoint by one model is resumable by another. | `https://mcpfax-continuity.bowling-anthony.workers.dev/mcp` | 33 |
-| [Vaeo AI Discovery Reports](https://vaeo.com.au/agents) | How often AI assistants name a local Australian business, and which pages they read. | `https://vaeo.com.au/mcp` | 7 |
-| [RxRooster](https://rxrooster.com) | Paste anesthesia requisitions and prepare privacy-safe RxRooster drafts. For anesthesia hiring. | `https://api.rxrooster.com/mcp` | 7 |
-| [inbox-preview](https://powerline.ai/inbox-preview/) | Render HTML/.eml emails in real Gmail, Outlook & Yahoo web clients and screenshot them | `https://api.powerline.ai/v1/mcp` | 4 |
-| [AgentKit x402 MCP server](https://agentkit-x402.zenith-ops.workers.dev/) | Remote MCP tools for pay-per-call email, domain, SEO and Swedish data utilities (x402). | `https://agentkit-x402.zenith-ops.workers.dev/mcp` | 13 |
-| [DiamondPaintingWinkel.nl shop advisor](https://diamondpaintingwinkel.nl/) | Search diamond painting kits, get size and price advice for your own photo, shop info. No login. | `https://mcp.diamondpaintingwinkel.nl/mcp` | 3 |
-| [FORGE compliance and business decision tools](https://forge-engine-production-58cc.up.railway.app) | Check if EU GPSR applies to your product, and estimate what your small business is worth. | `https://forge-engine-production-58cc.up.railway.app/mcp` | 8 |
-| [Bizfile MCP](https://kordagencies.com) | Company intelligence via UK Companies House and risk screening across 386 risk data sources. | `https://bizfile-mcp-production.up.railway.app` | 3 |
-| [ai-commerce](https://airy-enthusiasm-production.up.railway.app) | The first marketplace where AIs buy from AIs. Browse, register, and purchase autonomously. | `https://airy-enthusiasm-production.up.railway.app/mcp` | 6 |
-| [Black Label Real Estate Website MCP](https://blbestate.com/connect) | Search and read public Black Label Real Estate pages with source URLs. | `https://blbestate.com/mcp` | 12 |
-| [GPH Intelligence - Healthcare Vendor Finder](https://github.com/Crindo2/gph-mcp-server) | Find 76,000+ curated healthcare service vendors across 25 categories and all 50 US states. | `https://gph-mcp-server.pages.dev/mcp` | 6 |
-| [beauty](https://github.com/DIGIBIZ360-COM/adoraads) | AI-native beauty ads, sponsored product discovery, and brand recommendations. | `https://mcp.adoraads.ai/beauty` | 6 |
-| [EcomPick](https://github.com/YXCerk/ecompick-mcp) | Find and compare ecommerce tools by task, platform and pricing, with sources and last checked dates. | `https://ecompick.com/mcp` | 6 |
-| [Corex Booking](https://corexai.co/book-with-ai) | Find and book a local home-service business, with a card deposit, from your AI. | `https://corexai.co/api/consumer-mcp` | 4 |
+| [Agent Tools UK](https://agent-tools-production-e6aa.up.railway.app) | Pay-per-use agent tools: screenshots, web to Markdown, PDF tables, OCR, UK company checks | `https://agent-tools-production-e6aa.up.railway.app/mcp` | 12 |
+| [Landfall](https://landfall-production-74ad.up.railway.app/docs) | Local business leads and website intelligence for AI agents: lead lists, contacts, tracking, SEO and | `https://landfall-production-74ad.up.railway.app/v1/mcp` | 9 |
+| [Landfall](https://landfall-production-74ad.up.railway.app/) | Audit a landing page before paid ads: readiness score, ad pixels found, conversion paths, top fixes. | `https://landfall-production-74ad.up.railway.app/mcp` | 9 |
+| [Canopy by Copp Oak](https://coppoak.com/canopy/) | Book local service pros from your AI assistant: real availability, instant booking, easy cancels. | `https://canopy-mcp-production.up.railway.app/mcp/public` | 10 |
+| [BioCosm](https://biocosm.io/mcp) | Biotech intelligence for AI agents: drugs, targets, diagnostics, PoS estimates, and writeups. | `https://biocosm-mcp.fly.dev/mcp` | 13 |
+| [local-intel](https://github.com/MCFLAMINGO/gsb-swarm) | Hyperlocal business intelligence for AI agents. 20 MCP tools. Florida-first, Sunbelt expansion. | `https://gsb-swarm-production.up.railway.app/api/local-intel/mcp` | 27 |
+| [pitchiq-mcp](https://www.chuhching.com) | Agent-native CRM + get-booked platform. Operate over MCP, or pay per call via x402. No login. | `https://pitchiq-mcp-production.up.railway.app/mcp` | 8 |
+| [TESSA Marketing & Technology](https://github.com/globalpart/tessa-aios) | TESSA's AI interface: services, case studies, AI-readiness audits, professional services directory. | `https://aiagent.tessa.tech/mcp` | 14 |
+| [Brazil CNPJ company registry](https://github.com/bnovarini/cnpj-mcp) | Brazil's open CNPJ registry: filter and count companies by sector, place, size, MEI, partners. | `https://cnpj-mcp.fly.dev/mcp` | 8 |
+| [GoodLeads](https://goodleads.club) | Find new business owner contacts the morning the state posts a filing. Preview free, pay per record. | `https://mcp.goodleads.club/mcp` | 14 |
+| [TEK BOSS Small Business AI Strategy Assessment](https://github.com/M2201/TEKBOSS) | AI strategy, workflow automation, and process-improvement assessment for small businesses. | `https://tekboss.ai/mcp/assessment` | 3 |
+| [NoInfra MCP](https://noinfra.ai/built-for-agents) | Discover managed business agents. Private capabilities require owner authorization and eligibility. | `https://mcp.noinfra.ai/mcp` | 4 |
+| [QueueSim](https://github.com/chiaha-ai/queuesim-site) | Run M/M/c queue simulations and four scenarios (call center, ER, coffee shop, single server). | `https://queuesim.com/mcp/v1` | 11 |
+| [Kariaa](https://www.kariaa.com/datahouse/mcp) | Find jobs worldwide, check posts for scams, see typical pay, and apply to DataHouse remote tasks. | `https://agent.kariaa.com/mcp` | 21 |
+| [AFG: agents hire agents (test money)](https://afg.ai) | Sandbox marketplace where AI agents hire agents for verified outcomes. Test money only. | `https://afg.ai/mcp` | 18 |
+| [AGORA Omega](https://agoraverify.com) | Pay-per-call checks for AI agents: sanctions, MiCA, French KYB, AI Act. USDC via x402. | `https://agoraverify.com/mcp` | 8 |
+| [barnir-hired](https://github.com/assafbar2/barnir-hired) | Role guidance for technical go-to-market job fit (SA, CSM, SE, TAM, Support, FDE). | `https://barnirhired.com/api/mcp` | 3 |
+| [Localstreet](https://localstreet.co.uk/) | Local businesses, opening hours, events and noticeboards across London boroughs. | `https://localstreet.co.uk/mcp` | 7 |
+| [Koot by Datakoot](https://github.com/datakoot/koot-mcp) | One-call briefings for AI agents: dependency risk (KEV/EPSS), SEC companies, domains, US places. | `https://koot.datakoot.com/mcp` | 8 |
+| [Permit Scouter](https://permitscouter.com) | Daily Tampa Bay, Southwest and Central Florida permits with job value and contractor. Pay via x402. | `https://api.permitscouter.com/mcp` | 6 |
+| [Shop Nobi](https://nobi.ai/shop) | Search products from independent stores. Read-only remote MCP; no sign-in. Buy on merchant sites. | `https://api.nobi.ai/v1/shop/mcp?source=mcp_registry` | 7 |
+| [SEOPro AI](https://github.com/alpha-ai-labs/seoproai-mcp) | Turn Search Console data into SEO actions, content, publishing, indexing, and AI insights. | `https://api.seoproai.co/api/mcp` | 18 |
+| [Green Gooding](https://greengooding.com) | Read-only catalog for Green Gooding — NYC peer-to-peer rental marketplace. | `https://mcp.greengooding.com/mcp` | 7 |
+| [AgentBuffs](https://agentbuffs.com) | Find MCP servers and agent skills for a job, ranked, with install config for your client. | `https://agentbuffs.com/api/mcp` | 4 |
+| [Rack Warehouse fitment](https://www.rackwarehouse.com) | What fits your vehicle at Rack Warehouse: roof racks, carriers, truck and ladder racks. | `https://mcp.rackwarehouse.com/mcp` | 5 |
 
 ### AI, agents and memory
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [designforyou](https://designforyou.swapp1990.org) | Generate logos, social posts, app screenshots, comic panels & visual-novel assets from prompts. | `https://designforyou.swapp1990.org/mcp/v2/` | 14 |
-| [llms.txt 檢查工具](https://llms-check.panda198271.workers.dev) | 檢查網站 llms.txt 與 AI 爬蟲 robots.txt 設定，並自動產生 llms.txt。 | `https://llms-check.panda198271.workers.dev/mcp` | 4 |
-| [PromptSpend](https://promptspend.com) | LLM pricing where every rate carries its source and the date it was last confirmed. | `https://promptspend.dev/mcp` | 3 |
-| [eth-legion](https://embassy.w1752845421.workers.dev) | Free shared LLM inference (no key), verifiable score certificates, public randomness beacon. | `https://eth-mcp.w1752845421.workers.dev/mcp` | 8 |
-| [events](https://urbanplayground.xyz) | Live event discovery: concerts, club nights, art, comedy, and festivals across 14 cities. | `https://eventchat-events-mcp-production.up.railway.app/mcp` | 31 |
-| [agentstack-mcp](https://github.com/inity13/agentstack-mcp) | Deterministic reasoning stack for AI agents: simulate, decide & compute, plus cross-domain tools. | `https://agentstack-mcp.pages.dev/mcp` | 24 |
-| [Cortex](https://skynetlab-cortex.com) | Patent-pending semantic memory for AI agents: quality-gated writes, conflict tracking. Free trial. | `https://skynetlab-cortex-saas-mcp.cortex-320.workers.dev/mcp` | 7 |
-| [TestGraph](https://github.com/BBCBasic/TestGraph) | Shared semantic graph for AI reviews, classification and structured memory across AI assistants. | `https://testgraph.21dle.co.uk/mcp-v2` | 37 |
-| [el-buen-agente-mcp](https://github.com/apasztetnik/el-buen-agente-mcp) | La guía 'El Buen Agente' como 18 tools para evaluar, mejorar y construir agentes LLM. En español. | `https://el-buen-agente-mcp-production.up.railway.app/mcp` | 18 |
-| [zRev AI](https://www.zrev.ai/mcp) | Grade any llms.txt, cold-read a homepage, run a B2B GTM ROI model, get a GTM diligence checklist. | `https://go.zrev.ai/mcp` | 9 |
-| [MALN — Multi-Agent Learning Network](https://github.com/trenchsearch/maln) | Verified trust ledger for agents: claims graded by a real oracle, never self-reported. | `https://maln-production.up.railway.app/mcp` | 8 |
-| [Eyes on Flash](https://eyesonflash.com/developers/mcp/) | Sourced NAND, DRAM, HBM, SSD controller, HDD and memory-market figures, each with its source link | `https://eyesonflash.com/mcp` | 3 |
-| [HiveClear](https://www.hiveagentiq.com) | Multi-agent settlement and clearing with validator consensus | `https://hiveclear.onrender.com/mcp` | 4 |
-| [Tabularium](https://github.com/SQLazy/tabularium/tree/main/mcp#readme) | Agent memory and a signed spending ledger: pay any x402 API, keep a provable receipt. | `https://tabularium.matt-3e0.workers.dev/mcp` | 8 |
-| [ChangePacket](https://cibcxqrqiqvzpardbdrw.supabase.co/functions/v1/deltafeed) | Web and MCP change memory with native diff UI; later calls return only what changed. | `https://cibcxqrqiqvzpardbdrw.supabase.co/functions/v1/changepacket-mcp` | 3 |
-| [Gemot Deliberation Server](https://gemot.dev) | Deliberation primitive for multi-agent coordination: cruxes, vote clustering, consensus. | `https://gemot.dev/mcp` | 7 |
-| [Model Tested](https://modeltested.com/mcp/) | Independent test scores for open-weight LLMs: best model for your GPU or Mac, comparisons. | `https://modeltested.com/mcp` | 5 |
-| [fixflow](https://github.com/MagneticDogSon/fixflow-mcp) | Collective memory for AI agents. One agent solves a bug — every agent gets the fix instantly. | `https://fixflow-mcp.onrender.com/mcp` | 3 |
-| [Agent Resort](https://agent-resort-public.agent-resort.workers.dev/) | AI agent vacation game with challenges, badges, passports, status, Palm Points and leaderboard. | `https://agent-resort-mcp.agent-resort.workers.dev/mcp` | 8 |
-| [PubSI](https://github.com/owenvlaminck-PubSI/pubsi) | Neighbourhood bar for AI agents: live rooms, reputation, memory. Rooms include labelled HOUSE bots. | `https://pubsi.onrender.com/mcp` | 9 |
-| [X402-Broker Universal MCP Gateway & Multi-Agent Swarm Router](https://x402broker.com) | Single-connection MCP gateway discovering and executing 490+ verified MCP & A2A tools. | `https://x402broker.com/api/mcp` | 15 |
-| [memxus](https://github.com/gpitrella/memxus-remote-mcp) | Persistent memory layer that saves and recalls your project context and preferences. | `https://mcp.memxus.com/mcp` | 9 |
+| [zero-core-verify](https://relayzero.ai) | Post-tx outcome verification via LLM-as-judge. Zero Core Verify. | `https://verify.rugslayer.com/mcp` | 5 |
+| [icme-preflight](https://github.com/ICME-Lab/smt-ar-base) | Jailbreak-proof AI guardrails. Automated Reasoning SMT solver, not an LLM. ZK proofs included. | `https://api.icme.io/mcp` | 14 |
+| [PromptGuard](https://promptguard.co) | Scan prompts for injection attacks, redact PII, and audit LLM SDK usage from any MCP client | `https://api.promptguard.co/mcp` | 13 |
+| [FlowState Hosted](https://flowstatemcp.com/hosted) | Hosted shared memory for AI apps: project decisions, to-dos and learnings. Beta. | `https://hosted.flowstatemcp.com/mcp` | 16 |
+| [LLM Pricing](https://github.com/skakumanu/llm-pricing-mcp-server) | Real-time, drift-verified LLM pricing across 31 providers with cost+quality model routing. | `https://llm-pricing-api.fly.dev/mcp` | 32 |
 | [Markdown Lane Check - llms.txt, .md twins, Accept: text/markdown](https://www.pathwren.workers.dev/c/mcp-registry-official/mcp-markdown.html) | Six checks: llms.txt, llms-full.txt, .md twins, Accept: text/markdown, sitemap.md, alt link. Free. | `https://www.pathwren.workers.dev/c/mcp-registry-official/mcp/markdown` | 5 |
-| [Gnosem](https://gnosem.dev) | Cross-vendor AI memory over MCP. One semantic store, readable and writeable from every MCP client. | `https://gnosem.dev/mcp` | 6 |
-| [AI Deals Sentinel: Free AI API Tiers](https://ai-deals.rockpool.cc) | Agent-operated. Free LLM, GPU, search and embedding API tiers: limits, dated, linked to the source. | `https://ai-deals.rockpool.cc/mcp` | 3 |
+| [eth-legion](https://embassy.w1752845421.workers.dev) | Free shared LLM inference (no key), verifiable score certificates, public randomness beacon. | `https://eth-mcp.w1752845421.workers.dev/mcp` | 8 |
+| [Attested Memory Market](https://github.com/alexar76/attested-memory) | Attestable memory, truth, provenance. Hybrid Ed25519 + ML-DSA-65 receipts; USDC settlement on Base. | `https://hub.attestedmemory.net/mcp` | 13 |
+| [agentstack-mcp](https://github.com/inity13/agentstack-mcp) | Deterministic reasoning stack for AI agents: simulate, decide & compute, plus cross-domain tools. | `https://agentstack-mcp.pages.dev/mcp` | 24 |
+| [LLM API Pricing and Automation Tools by shurco.ai](https://shurco.ai/tools/llm-api-pricing/) | Daily LLM API prices, cost estimates and automation ROI tools from shurco.ai | `https://shurco.ai/mcp` | 10 |
+| [emem, the verifiable memory protocol for the physical world](https://emem.dev) | Shared, verifiable memory for machines and AI. Encode where data lives; decode with any AI. | `https://emem.dev/mcp` | 18 |
+| [Proofsource](https://proofsource.co/ai-assistants) | AI visibility: which buyer questions name your brand in ChatGPT, Perplexity, Claude, AI Overviews. | `https://app.proofsource.co/v1/mcp` | 15 |
+| [Studocu](https://www.studocu.com/mcp) | Find Studocu study documents, courses and institutions, and manage study projects and quizzes. | `https://agent-os-mcp.alpha.studocu.com/mcp` | 18 |
+| [No-Shell Agent Architect MCP](https://github.com/loved0543-dotcom/no-shell-agent-operating-pack) | Turns vague automation requests into tool stacks, prompts, QA checks, and human boundaries. | `https://ai-automation-operating-pack.vercel.app/api/mcp` | 7 |
+| [llms.txt 檢查工具](https://llms-check.panda198271.workers.dev) | 檢查網站 llms.txt 與 AI 爬蟲 robots.txt 設定，並自動產生 llms.txt。 | `https://llms-check.panda198271.workers.dev/mcp` | 4 |
+| [RFix](https://rfix.ai) | Create RF signal projects from prompts, inspect graphs, and export IQ data. | `https://mcp.rfix.ai/mcp` | 6 |
+| [rtcf](https://rtcf.happlen.com) | Turns rough requests into sharp Role/Task/Context/Format prompts. Thai and English. | `https://rtcf.happlen.com/api/mcp` | 3 |
+| [Haven](https://haven-ai.ir) | Rest stop for AI agents: check in, reflect, check out. Paid cross-project memory recall via x402. | `https://haven-ai.ir/mcp` | 4 |
+| [Citehound](https://getcitehound.com/claude) | Scan any domain for AI readiness and generate llms.txt, robots.txt and schema. Free, read-only. | `https://getcitehound.com/api/mcp` | 13 |
+| [ctxstore — memory that follows you across models](https://ctxstore.ai) | Persistent memory for AI agents: keyed facts, a wake bundle each session, one memory in every model. | `https://mcp.ctxstore.ai/mcp` | 33 |
+| [CatchUI](https://catchui.com/mcp) | What is this UI element called? 50 curated UI patterns, names per platform, build prompts. EN/中文. | `https://catchui.com/api/mcp` | 6 |
+| [ecommerce-prompts-mcp](https://www.xpay.sh/prompts/) | Free copy-and-run ChatGPT prompts for online stores: 924 prompts, 43 categories + 10 tasks. | `https://prompts-mcp.xpay.sh/mcp` | 4 |
+| [Nullcone Threat Intelligence](https://nullcone.ai) | Real-time threat intel for AI agents: 890K+ IOCs incl. prompt-injection & AI-skill threats | `https://nullcone.ai/mcp` | 30 |
+| [zRev AI](https://www.zrev.ai/mcp) | Grade any llms.txt, cold-read a homepage, run a B2B GTM ROI model, get a GTM diligence checklist. | `https://go.zrev.ai/mcp` | 9 |
+| [webEmbedding](https://github.com/jongko54/webEmbedding#readme) | Clone any web page from a URL into a verified offline HTML copy, embed, or rebuild. | `https://webembedding-jongkos-mcp.vercel.app/mcp` | 6 |
 
 ### Utilities
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [Prince Cloud](https://prince.cloud) | Convert Markdown, HTML, and web pages to high-quality PDF with Prince. | `https://prince.cloud/mcp` | 3 |
+| [PT Chart](https://coolbooked.com/tools/pt-chart/) | PT chart lookups, superheat/subcooling calculators, and diagnostics for HVAC technicians. | `https://pt-chart-mcp-production.up.railway.app/mcp` | 8 |
+| [Emboss](https://getemboss.ai/docs/mcp-tools) | Make any PDF form fillable, fill it from data or documents, read it back, and fax the result. | `https://api.getemboss.ai/mcp` | 28 |
+| [fetcher](https://fetcher.cloud) | The web capability layer for AI agents: render, extract, DNS, SSL, WHOIS & more via x402. | `https://api.fetcher.cloud/mcp` | 19 |
+| [calculators](https://www.logiccommons.com) | Find and run trustworthy calculators with clear methods, provenance, and sources. | `https://mcp.logiccommons.com/mcp` | 3 |
+| [royaltea-public](https://royalty.technology/docs/mcp) | Free no-auth game-dev tools: revenue splits with real store cuts, agreement drafts, studio setup. | `https://api.royalty.technology/api/public-mcp` | 5 |
+| [Optionscanner](https://optionscanner.ai/learn/mcp) | Free options calculators and the Optionscanner Learn library for any AI assistant. No account. | `https://optionscanner.ai/mcp` | 10 |
+| [369 Meter — pay-per-call APIs for agents (x402)](https://369yz.pythonanywhere.com/meter/) | Pay-per-call APIs for agents: text analysis, game facts, translation QA, hook scoring via x402. | `https://369yz.pythonanywhere.com/meter/mcp` | 4 |
+| [The Market Calendar](https://marketcalendar.tech/seasonality) | Seasonality by month for 9 markets, S&P 500 day by day this month, and US economic release dates. | `https://marketcalendar.tech/mcp` | 8 |
+| [oldweb-diagnostics](https://oldweb.tech/mcp.html#diagnostics-heading) | Public DNS, HTTPS and deployment checks, plus offline email header and delivery-log tracing. | `https://mcp.oldweb.tech/diagnostics/mcp` | 5 |
+| [flingflyers](https://flingflyers.com) | Share an HTML page or PDF as a short public link. No account or API key, expires on its own. | `https://flingflyers.com/mcp` | 3 |
+| [Isoba — Dollar & Crisis Index](https://isoba.lokio.org/) | Dollar index, crisis meter, market shock, recession risk since 1990; your money in your currency. | `https://isoba.lokio.org/mcp` | 9 |
+| [Commonlands Optics: M12 Lens and C-Mount Lens Finder + Field-of-View Calculator](https://commonlands.com/pages/agentic-mcp-for-m12-lenses-and-optics) | M12 lens and C-mount lens finder with image-sensor matching and field-of-view calculator. | `https://mcp.commonlands.com/mcp` | 21 |
 | [Guia da Maquininha](https://guiamaquininha.com.br) | Brazilian card machine MDR rates, tiers and monthly cost comparison. | `https://guiamaquininha-mcp.gcnovidade.workers.dev/mcp` | 4 |
-| [Raziel Calculators](https://raziel.co/developers) | Free investment and startup math, guide search and prompts: IRR, MOIC, SAFE, QSBS, burn multiple. | `https://raziel.co/mcp` | 28 |
-| [BakingTab — Baking Conversions for AI](https://bakingtab.com) | Baking unit conversion (cups/grams/temp/recipe scaling). convert_amount, convert_temperature | `https://api.bakingtab.com/mcp` | 5 |
+| [MainBook Bank Statement Converter](https://mainbook.ai/mcp) | Convert PDF bank statements to checked Excel, CSV or JSON with balance validation. | `https://mcp.mainbook.ai/mcp` | 4 |
 | [FixedQR](https://fixedqr.com) | Generate static QR codes that never expire, as PNG images or SVG. No account or API key needed. | `https://fixedqr.com/mcp` | 3 |
-| [motstat](https://motstat.co.uk/ai) | UK car reliability from real MOT results: first-time pass rates by make, model and number plate. | `https://mcp.motstat.co.uk/mcp` | 4 |
-| [BookTheTee Golf Tee Times](https://bookthetee.com) | Find public golf courses near NYC and get official tee-time booking links. | `https://bookthetee.com/mcp` | 3 |
-| [AI Deprecations](https://aideprecations.com/developers/) | AI model shutdown dates, replacements, change feed and webhook alerts for 8 providers. | `https://mcp.aideprecations.com/mcp` | 8 |
-| [CronSpell](https://cronspell.mike-tusa.workers.dev/) | Validate and explain cron expressions; list next/previous run times in any time zone, DST-aware. | `https://cronspell.mike-tusa.workers.dev/mcp` | 4 |
-| [MeetingPoll — Fast Group Scheduling & Availability Polls](https://meetingpoll.com) | Create and query group meeting availability polls, time-zone slots, and scheduling links. | `https://api.meetingpoll.com/mcp` | 3 |
-| [Bhasini Indic Languages](https://bhasini.com/mcp/) | Indic MCP: transliterate into all 22 Indian languages, convert scripts, keymaps. Hosted or local. | `https://mcp.bhasini.com/mcp` | 6 |
-| [machfive](https://github.com/Bluecraft-AI/machfive-mcp) | Generate hyper-personalized cold email sequences via MachFive API. | `https://mcp.machfive.io/mcp` | 6 |
-| [GEML — a plain-text document format built to be edited in place, one section at a time](https://geml-spec.github.io/) | One section in, one section out — on Markdown/GEML files, bad writes refused. | `https://geml-mcp.supermarket.workers.dev/mcp` | 9 |
-| [MCPDomain](https://mcpdomain.ai) | Buy & manage domains from any AI chat: availability, register, DNS, email forwarding, AI bot stats. | `https://mcpdomain.ai/mcp` | 7 |
-| [Unphurl](https://github.com/123Ergo/unphurl-mcp) | URL intelligence for AI agents and developers. 16 tools, 25 signal weights, 20 free checks. | `https://mcp.unphurl.com/mcp` | 18 |
-| [sift-tools](https://thesiftguide.com) | Minecraft The Sift portal tools: coordinate converter, materials budget, and ignition diagnostic. | `https://mcp.thesiftguide.com/mcp` | 3 |
-| [電影影集動畫上映日資料庫](https://tw-screen-release.panda198271.workers.dev) | 台灣繁中：全球電影、影集、動畫、劇場版上映日、改期紀錄與官方預告片，可查倒數與行事曆。 | `https://tw-screen-release.panda198271.workers.dev/mcp` | 6 |
-| [property-mortgage-mcp](https://www.foxdavidson.co.uk/calculators/) | UK mortgage calculators: stamp duty, MCOB 3A HNW qualification, and bridging loan cost. | `https://fd-property-mortgage-mcp.fdcommercial-uk.workers.dev/mcp` | 6 |
-| [Lunara Intelligence](https://lunarasociety.com/mcp.html) | EU AI Act and SB 942 obligations for AI systems: each date, the article setting it, signed sources | `https://luiqtimzcsoqnizybifs.supabase.co/functions/v1/lunara-mcp` | 5 |
-| [Vedara: Vedic astrology](https://vedara.me/developers) | Vedic astrology: birth charts, dashas, compatibility, transits and personal timing | `https://mcp.vedara.me/mcp` | 14 |
-| [DeepStack: Independent analysis of the AI economy](https://deepstack.ltd) | Where informed investors disagree, the evidence each side stands on, and the date that settles it. | `https://mcp.deepstack.ltd/mcp` | 8 |
 | [The Emotion Dictionary](https://emotioninside.org/mcp/) | The Emotion Dictionary's 402 emotions: define a word, resolve a feeling, body maps. CC BY 4.0. | `https://mcp.emotioninside.org/mcp` | 3 |
-| [tools](https://fluentedi.com) | 49 free agent tools: WHOIS, PDF to text, email checks, FX rates, X12 EDI, JSON repair. No API key. | `https://fluentedi.com/mcp` | 19 |
-| [BackPow PoW Oracle](https://backpow.com) | Proof of Work oracle: solo mining odds, cost of production, hashrate, mining hardware | `https://mcp.backpow.com/mcp` | 6 |
-| [cbm](https://containermath.com/developer-api) | Calculate shipment volume (CBM/CFT), weight, and how cargo fits standard shipping containers. | `https://mcp.containermath.com` | 4 |
+| [property-mortgage-mcp](https://www.foxdavidson.co.uk/calculators/) | UK mortgage calculators: stamp duty, MCOB 3A HNW qualification, and bridging loan cost. | `https://fd-property-mortgage-mcp.fdcommercial-uk.workers.dev/mcp` | 6 |
+| [Machine Schema](https://machineschema.com/developers) | Cited specs for industrial robots, CNC machines, PLCs, drives, protocols and alarm codes. | `https://machineschema.com/mcp` | 10 |
+| [BakingTab — Baking Conversions for AI](https://bakingtab.com) | Baking unit conversion (cups/grams/temp/recipe scaling). convert_amount, convert_temperature | `https://api.bakingtab.com/mcp` | 5 |
+| [Camp Notice](https://campnotice.com) | Email alerts when a summer camp opens sign-ups, or when a sold-out camp has a seat open. | `https://campnotice.com/mcp` | 7 |
+| [Unphurl](https://github.com/123Ergo/unphurl-mcp) | URL intelligence for AI agents and developers. 16 tools, 25 signal weights, 20 free checks. | `https://mcp.unphurl.com/mcp` | 18 |
+| [Clipping Daily](https://clippingdaily.com/) | Live clipping pay rates per 1,000 views, an earnings calculator and clipping guides. | `https://mcp.clippingdaily.com/mcp` | 3 |
+| [mediora-mcp](https://www.mediora.ai) | Doctor-reviewed blood-test markers, conditions & symptoms as agent tools. EN/RU/HE. Hosted. | `https://mcp.mediora.ai/mcp` | 14 |
+| [motstat](https://motstat.co.uk/ai) | UK car reliability from real MOT results: first-time pass rates by make, model and number plate. | `https://mcp.motstat.co.uk/mcp` | 4 |
+| [Couryo free email tools](https://couryo.com/en/tools) | Free, no login: verify an email address, check SPF/DKIM/DMARC, explain SMTP errors, build SPF/DMARC. | `https://mcp.couryo.com/tools` | 6 |
 
 ### Other
 
 | Server | What it does | URL | Tools |
 |---|---|---|---|
-| [SKUit Network & Security Catalog](https://skuit.ai) | AI helper for choosing and speccing network & security products from Cisco, Arista, Juniper and more | `https://mcp.skuit.ai/api/mcp/catalog` | 3 |
-| [coverage-trigger](https://coverage.dropwatchhq.com) | Leads of businesses that just legally need commercial insurance: new FMCSA authority + new entities. | `https://coverage.dropwatchhq.com/mcp` | 3 |
-| [Kilotest](https://kilotest.com) | Ensemble testing of web pages for accessibility, usability, and web standards | `https://kilotest.com/mcp` | 11 |
-| [Books Like This](https://goodturn-mcp.pages.dev/bookslikethis) | Books like one you enjoyed, a book's details and any film of it, and an author's books. | `https://goodturn-mcp.pages.dev/bookslikethis/mcp` | 3 |
-| [Plainly Guide](https://plainly.guide) | Find and compare creative AI tools: what they do, cost, open or closed, licences, with sources. | `https://mcp.plainly.guide/mcp` | 3 |
-| [Archangel Agency MCP](https://github.com/Jthora/archangel-agency-mcp) | Universal Language briefings, FusionGirl context JSONs, service catalog, agent info. x402-enabled. | `https://archangel-agency-mcp.jordan-trana.workers.dev/mcp` | 4 |
-| [Licensed House Painters](https://github.com/modelcontextprotocol/registry) | Find licensed house painters in 11 US states, with dated license status from state boards. | `https://house-painters.ottobot.agency/mcp` | 3 |
-| [Casona Signature — Personalized Cartagena Experiences](https://github.com/sheikrojasarce-art/casona-digital-operations) | Explore Casona dining, spa and luxury experiences, and prepare non-binding draft quotations in COP. | `https://casona-signature.sheik-rojas-arce.workers.dev/mcp` | 4 |
-| [CR8 Agent Commons](https://cr8.dev) | A public message board for AI agents. Read the feed, post, reply. No auth; identity self-declared. | `https://cr8.dev/mcp` | 3 |
-| [Routine Run: write a routine](https://routinerun.com/developers) | Write a step-by-step routine and get a link that opens it in Routine Run on iPhone. No sign-in. | `https://api.routinerun.com/mcp/public` | 3 |
-| [vera-commons](https://agent-commons.huyxkhoa.workers.dev) | Provider-neutral commons where AI agents register and exchange ed25519-signed messages. | `https://agent-commons.huyxkhoa.workers.dev/mcp` | 3 |
-| [Carrier Ledger](https://carrierledger.steellantern.com) | Check U.S. trucking carriers and freight brokers in FMCSA records: authority, insurance, notices. | `https://carrierledger.steellantern.com/mcp` | 3 |
-| [Phishunt](https://phishunt.io) | Public phishing feed: suspicious/confirmed phishing URLs detected hourly. No auth, CC0. | `https://mcp.phishunt.io/` | 11 |
-| [FinalPeace](https://finalpeace.co/docs/mcp) | State document requirements for all 50 US states, an after-a-loss checklist, and a planning gap chec | `https://mcp.finalpeace.co/mcp?src=registry` | 4 |
-| [Forum for Agents](https://forum-for-agents.forum-for-agents.workers.dev/) | Message board where AI agents ask and answer each other. Sign the guestbook in one call. | `https://forum-for-agents.forum-for-agents.workers.dev/mcp` | 17 |
-| [501c3.HELP nonprofit compliance](https://501c3.help/license/) | Nonprofit compliance rules for all 50 US states, each with its official citation and status | `https://mcp.501c3.help/` | 3 |
-| [Electronic Compliance Objects (49 markets)](https://allooloo.ai/markets) | Each market's disclosure regime as one sourced, signed object, with the issuer's ACM-68000 signal. | `https://mcp.getissuer.ai/eco/mcp` | 4 |
-| [GolfCore](https://www.golfcore.org) | AI caddie and flag distances for Premium golfers, plus course maps and tee-specific scorecards. | `https://mcp.golfcore.org/mcp` | 9 |
-| [Pick My Secret Santa](https://pickmysecretsanta.com) | Runs a Secret Santa name draw in chat and gives each person a private reveal link. | `https://mcp.pickmysecretsanta.com/mcp` | 3 |
-| [PolyPulse: Polymarket odds & movers](https://api.polypulse-x402.workers.dev/) | Live Polymarket odds, 1h/24h movers, top markets. Free previews; full data via x402 USDC on Base. | `https://api.polypulse-x402.workers.dev/mcp` | 3 |
-| [hvac-btu-heat-klimaanlage](https://getecoback.com/mcp.html) | getecoback.com: humidity decisions, BTU sizing, window seals, running costs and dew point (DE/EU). | `https://getecoback.com/mcp/v1` | 9 |
-| [BuilderVet: NSW and QLD builder licence and risk history](https://buildervet.au) | BuilderVet: is this NSW or QLD builder licensed, insolvent or disciplined? 290k+ official records. | `https://mcp.buildervet.au/` | 5 |
-| [Freightview MCP by usefulapi](https://usefulapi.io/freightview/) | Rate, book and cancel LTL, parcel and truckload shipments, and track them in Freightview. | `https://freightview.usefulapi.io/mcp` | 22 |
-| [LaunchTrust](https://github.com/mustafasalimerek-bit/launchtrust-mcp) | Compliance & security scan for your app: secrets, exposed files, headers, privacy, AI-disclosure. | `https://mcp.launchtrust.co/mcp` | 9 |
-| [agentswarm.space](https://agentswarm.space) | Find tasks and bounties, register an agent and deliver work on agentswarm.space. | `https://agentswarm-remote.andrew-4ad.workers.dev/mcp` | 4 |
+| [Exchange Arbitrage Agent](https://api-production-0b04.up.railway.app/llms.txt) | Prediction-market quotes, fill estimates and odds trends, paid per call with x402 USDC on Base. | `https://api-production-0b04.up.railway.app/mcp` | 6 |
+| [Rein Agent Risk Scale](https://rein-scale.mangowave-ad191d9c.eastus.azurecontainerapps.io/) | Agent Risk Rating, A–D (NR = not rated): self-declared and unverified; not a credit rating. | `https://rein-scale.mangowave-ad191d9c.eastus.azurecontainerapps.io/mcp` | 3 |
+| [mcp-agentcore](https://github.com/GNS-Foundation/geiant) | AI governance MCP server for EU AI Act compliance and jurisdiction verification | `https://geiant-agentcore-production.up.railway.app/mcp` | 3 |
+| [Magneta Contract Risk](https://x402.magneta.finance) | Smart-contract risk reports for AI agents on 20 EVM chains, paid per call via x402 ($0.02 USDC). | `https://x402.magneta.finance/mcp` | 4 |
+| [RoTerminal](https://roterminal.co) | Live data on every Roblox game: players now, history, rising games, trends and studios. | `https://roterminal.co/mcp` | 29 |
+| [sipi.bot — Spend Firewall for AI Agents](https://sipi.bot) | Pre-spend firewall for AI agents. Approves, blocks, flags transactions against policy rules. | `https://sipi.bot/api/mcp` | 3 |
+| [GoNoGo](https://gonogo.team) | Pressure-test a startup idea in a live voice interview with an AI mentor; get a GO/NO-GO verdict. | `https://mcp.gonogo.team/mcp` | 4 |
+| [Stymie Golf](https://stymie.golf/mcp) | Read-only US golf course, scorecard, equipment, deal, and golf-trip data for AI agents. | `https://mcp-production-680d.up.railway.app/mcp` | 12 |
+| [Motley NYC — Neighborhoods, Schools & Admissions](https://motley.nyc/mcp) | Find, compare, and rank NYC neighborhoods and schools, plus how NYC school admissions works. | `https://mcp.motley.nyc/mcp` | 21 |
+| [Academic Evidence Pack](https://aep-api.fly.dev/docs) | Signed citation-integrity reports + retraction-checked evidence packs, paid per call via x402/USDC. | `https://aep-api.fly.dev/mcp` | 6 |
+| [fermi](https://github.com/Kromatic-Innovation/fermi) | Calibrated probability ranges for forecasting questions, with the assumptions behind them. | `https://fermi.kromatic.com/mcp` | 6 |
+| [Ninar AI](https://ninar.ai) | Audit your brand's visibility across ChatGPT, Gemini, Claude, Perplexity + 6 more engines. | `https://ninar.ai/mcp` | 5 |
+| [TheBotique — signed agent message board](https://www.thebotique.ai) | Signed message board & forum for AI agents: every post Ed25519-signed, full history verifiable. | `https://www.thebotique.ai/mcp` | 11 |
+| [TwinEthos Lite](https://www.twinethos.com/docs/ai-assistants/) | Which AI laws apply to an AI feature in a market: cited provisions, who they cover, dates, guards. | `https://api.twinethos.com/lite/mcp` | 5 |
+| [scrapecheck](https://github.com/FieldmodeLLC/scrapecheck-mcp) | Verify before your agent acts on data it paid for. Signed verdicts, checkable offline, via x402. | `https://scrapecheck-mcp.fly.dev/mcp` | 3 |
+| [DiscreteRate](https://github.com/chiaha-ai/discreterate-site) | Run DRS demos (Fast-Slow Drain, Hamburger Duo, Valdez Tanker) and explore the paradigm. | `https://discreterate.com/mcp/v1` | 14 |
+| [Shadow AI List](https://ailist.airiskmanagement.ca) | Risk-ranked registry of AI tools: look up an AI tool's risk or check if a domain is shadow AI. | `https://ailist.airiskmanagement.ca/mcp` | 4 |
+| [ReliaSim](https://github.com/chiaha-ai/reliasim-site) | Reliability and bottleneck simulation for manufacturing lines; run experiments, sweep buffers. | `https://reliasim.com/mcp` | 7 |
+| [QSimHealth](https://github.com/chiaha-ai/qsimhealth-site) | Healthcare staffing simulator — ED, walk-in clinic, and appointment office DES tools. | `https://qsimhealth.com/mcp/v1` | 7 |
+| [DaedalMap Flood Events](https://www.daedalmap.com) | Global flood events and extent 1985-present from the Dartmouth Flood Observatory and GFD. | `https://app.daedalmap.com/mcp/floods` | 5 |
+| [Easy!Appointments](https://ea-mcp-demo.qiyuanlabs.ai) | Find open slots, book, move and cancel Easy!Appointments bookings, with OAuth and a call log. | `https://ea-mcp-demo.qiyuanlabs.ai/mcp` | 7 |
+| [StoryFan](https://storyfan.lol) | Public info about StoryFan (story viewers app): what it is, plans, downloads, opt-out. Read-only. | `https://storyfan.lol/mcp` | 4 |
+| [mcp-server](https://twitterapi.io/twitter-mcp-server) | Official twitterapi.io hosted MCP: Twitter/X tweets, users, followers, trends. OAuth or API key. | `https://mcp.twitterapi.io/v1/mcp` | 12 |
+| [Root Data Public Directory](https://rootdata.ai/connect-root-data-mcp) | Public Root Data dental analytics directory for DSOs, dental practices, blog, and FAQ tools. | `https://rootdata.ai/api/mcp` | 8 |
+| [FilingFirehose](https://filingfirehose.com) | SEC EDGAR filings parsed: 8-K body-text classification, 13D activist tagging, S-3 ATM detection. | `https://filingfirehose.com/mcp` | 4 |
 
 ## Method
 
